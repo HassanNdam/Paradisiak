@@ -1,0 +1,890 @@
+
+
+/* 
+Theme Name: By Paradisiak 
+Version: 1.0 beta
+Description: Paradisiak, Votre Site Carrière
+Author: Paradisiak
+Bouton header couleur verte:  #46CBB1  Option 2 : #FF9200
+Couleur logo Intuition : #f2761c
+
+*/
+
+/* html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 16px;
+	font-family: inherit;
+	vertical-align: baseline;
+	background: transparent;
+} */
+
+
+body{
+ overflow-x:hidden ;
+ margin: 0;
+ font-family: Proxima Nova, 'Segoe UI', Arial, sans-serif; 
+ font-size: 16px;
+ line-height: 1.6;
+ color: black;
+ width: 100%;
+ background-color: white;
+ background-repeat: no-repeat
+}
+
+a {
+  color: #000000;
+  text-decoration: underline;
+}
+
+p{
+  text-align: justify;
+}
+
+::selection{
+  background-color: #46CBB1;
+  color:#f7f2f2;
+}
+
+::-moz-selection{
+  background-color: #000000;
+  color:white;
+}
+
+.bleu-texte{
+  color:#46CBB1
+}
+
+
+/*
+.my-*
+*/
+
+
+
+  /*
+   * Site header
+   */
+  
+.site-header {
+    background-color: black;
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+    opacity: 0.9;
+   
+  }
+.site-header .d-none {
+    padding-top:5px;
+  }
+
+.site-header a {
+    transition: color .15s ease-in-out;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+  }
+
+.site-header a .btn-success{
+  margin-top: 5px;
+}
+
+.site-header .apropos:hover {
+    text-decoration: underline #FF9200 3px !important;
+    color: #f7f2f2;
+    opacity: 1;
+    transition: all 300ms ease-in-out 0s;
+  }
+
+  
+.site-header .exemples:hover {
+    text-decoration: underline #FE0090 3px !important;
+    color: #f7f2f2;
+    opacity: 1;
+    transition: all 300ms ease-in-out 0s;
+  }
+
+.site-header .blog:hover {
+    text-decoration: underline #46CBB1 3px !important;
+    color: #f7f2f2;
+    opacity: 1;
+    transition: all 300ms ease-in-out 0s;
+  }
+
+.site-header .contact:hover {
+    text-decoration: underline gold 3px !important;
+    color: #f7f2f2;
+    opacity: 1;
+    transition: all 300ms ease-in-out 0s;
+  }
+ 
+
+.site-carriere{
+    font-size: 30px;
+    text-align: justify;
+  }
+
+  .header-text{
+    opacity: 1;
+    text-align: start;
+  }
+
+  .lead{
+    margin-bottom: 30px;
+  }
+
+  .nous-sommes-texte{
+    margin-top: 90px;
+  }
+
+  .titre-site-slider{
+    text-transform: none;
+  }
+
+  .bg-dark{
+    /* linear-gradient(rgb(255, 205, 0),rgba(0, 0, 0, 0.5)) , */
+    background:  url(assets/img/Sanstitre2.png);
+    background-color: transparent;
+    color: white;
+    height: 450px;
+    width: 100%;
+  }
+
+
+  .fleche{
+    margin-left: 90px;
+    margin-top: 10px;
+  }
+
+
+  .btn{
+    color: #fff;
+    background-color: rgb(0, 0, 0);
+    border-color: rgba(0, 0, 0, 0.17);
+    /* box-shadow: 0 1px 2px rgb(0 0 0 / 15%); */
+    font-weight: 600;
+    /* text-shadow: 0 1px 1px rgb(0 0 0 / 10%), 0 0 2px rgb(0 0 0 / 30%); */
+  }
+
+  .btn:hover{
+    background-color: #fff;
+    color: #000000;
+    /* border-color: rgba(255, 255, 255, 0.17);
+    box-shadow: 0 1px 2px rgb(0 0 0 / 15%); */
+  } 
+
+  .btn-warning{
+    color: #46CBB1;
+    background-color: rgb(241, 241, 241);
+    border-color: rgba(0, 0, 0, 0.17);
+  }
+
+
+
+  .site-header a .btn-success{
+    background-color: #46CBB1;
+    color: #000000;
+  }
+
+  .site-header a .btn-success:hover{
+    opacity: 0.9 ;
+    color: #000000;
+  }
+  
+  
+  /*
+   * Design Telephone back header
+   */
+  
+  /* .product-device {
+    position: absolute;
+    right: 10%;
+    bottom: -30%;
+    width: 300px;
+    height: 500px;
+    background-color: #e8eef3;
+    border-radius: 21px;
+    transform: rotate(30deg);
+
+  }
+  
+  .product-device::before {
+    position: absolute;
+    top: 5%;
+    right: 10px;
+    bottom: 10%;
+    left: 10px;
+    content: "";
+    background-color: white;
+    border-radius: 5px;
+    background-image: url(./assets/img/back.PNG);
+  } */
+  
+  .product-device-2 {
+    top: -25%;
+    right: auto;
+    bottom: 0;
+    left: 5%;
+    background-color: #e8eef3;
+  }
+  
+  
+  /*
+   * Extra utilities
+   */
+  
+  .flex-equal > * {
+    flex: 1;
+  }
+  @media (min-width: 768px) {
+    .flex-md-equal > * {
+      flex: 1;
+    }
+  }
+
+  /* Corps 1 Developpez votre site internet  */
+  
+  .creer-site-titre {
+    margin: 0 0 40px;
+    color: #000000;
+    letter-spacing: 1rem;
+    line-height: 7rem;
+    font-size: 70px;
+    --reveal-delay: 0.1s;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .paradisiak-text1{
+    margin-left: 80px;
+  } 
+
+  .paradisiak-text2{
+    font-weight: bold;  
+  }
+
+  .etape{
+    font-style: normal;
+    font-weight: 900;
+    line-height: 1em;
+    letter-spacing: 0;
+    text-rendering: geometricPrecision;
+    text-transform: none;
+    text-decoration: none;
+    font-size: 80px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin-bottom: 30px;
+
+  }
+
+  .point-1{
+    color:#46CBB1 ;
+  }
+
+  .point-2{
+    color:#FE0090 ;
+  }
+
+  .point-3{
+    color:gold;
+  }
+
+  .point-4{
+    color:#FF9200;
+  }
+  .point-5{
+    color:crimson;
+  }
+
+  .featurette-divider{
+    background-color:#46CBB1 ;
+     padding: 0.1rem;
+     margin: 3rem 0; 
+  }
+
+  .container-fluid{
+    /* background: url(assets/img/background2.jpg); */
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+    margin-bottom: 0rem;
+    /* background-image:linear-gradient(rgb(255, 205, 0),#FE0090) ; */
+  }
+
+  .pensez{
+    text-align: center;
+    color: #ffffff;
+    font-size: 60px;
+    padding-top:20px;
+  }
+
+  .realisons{
+      background-color:#46CBB1 ;
+      color: #000000;
+  }
+  
+  .spealise{
+    color: #f7f5f5;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px 30px 30px 30px;
+    line-height: 3rem;
+  }
+
+  .spealise1{
+    color: #000000;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px 30px 30px 30px;
+    line-height: 3rem;
+  }
+
+  .exemple1{
+    text-align: center;
+    color: #000000;
+    font-size: 60px;
+    padding-top:20px;
+  }
+
+  .devis-pensez .btn-success{
+    background-color: #46CBB1;
+    margin-bottom: 2rem;
+    color: #000000;
+  }
+
+  .devis-pensez .btn-success:hover{
+    opacity: 0.8;
+  }
+
+  .je-veux-un-site .btn-success{
+  background-color: #46CBB1;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  color: #000000;
+  padding: 8px;
+
+  }
+
+  .je-veux-un-site .btn-success:hover{
+    opacity: 0.88;
+    border-color: black;
+  }
+
+  .un-site{
+    text-align:center; 
+    margin-top: 20px;
+  }
+
+  .un-site .btn{
+    font-size: 15px;
+  }
+
+  .etape-3{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .espace-demarquez{
+    margin-bottom: 2rem;
+  }
+
+  .espace{
+    font-size:30px;
+    padding-top:9px;
+  }
+
+  .etape-3 texte-desc{
+    text-align: justify;
+  }
+
+  .etape-3 .bg-dark{
+    background: url(assets/img/SansTitre2.png) no-repeat none;
+    /* background: url(assets/img/SlideV.png) no-repeat; */
+    /* transform: rotate(-1deg) */
+  } 
+
+ 
+  /* Corps 2 Pensez  */
+
+  .creer-site-titre2{
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+  }
+
+  .presentation1{
+    text-align: justify;
+  }
+
+  /* Design bloc 3 */
+
+.fas{
+       color: #f7f5f5;
+       font-size:40px;
+       opacity: 0.33;
+}
+
+.bloc3 .creer-site-titre3{
+  text-align: center;
+  color: #0f1f2f;
+  font-size: 26px;
+  margin: 15 0;
+}
+
+.presentation2{
+  margin: 30px;
+  text-align: justify;
+}
+
+.bloc3{
+  background-color: #fbfbfd;
+  position: relative;
+ 
+}
+/* .telephone::before{
+  position: absolute;
+  top: 5%;
+  right: 10px;
+  bottom: 10%;
+  left: 10px;
+  content: "Paradisiak, avec VOUS!" ;
+  background-color: rgb(253, 253, 253);
+  background-image: url(assets/portfolio/Compiene_pc.PNG) none; 
+  
+} */
+
+/* .left-bloc3{
+  position:absolute;
+  width: 265px;
+  height: 450px;
+  left: 10px;
+  top: -28%;
+  background-color: #e8eef3;
+  border-radius: 21px;
+}
+
+.right-bloc3{
+  position:absolute;
+  width: 265px;
+  height: 450px;
+  right: 10px;
+  top: -28%;
+  background-color: #e8eef3;
+  border-radius: 21px;
+}
+
+@media screen and (max-width:760px) {
+  .right-bloc3, .left-bloc3{
+    display:none;
+  }
+  
+} */
+
+   /*
+   * Footer
+   */
+   /* .avant-footer{
+     background-color: #f0f0f0; 
+     margin-top: 10rem;
+   }
+
+   .avant-footer .btn-success{
+     background-color:#46CBB1;
+     color: #000000;
+
+   }
+
+   .avant-footer .btn-success:hover{
+     opacity: 0.9;
+   }
+
+   .avant-footer-back{
+    padding: 20px;
+  }
+
+   .obtenez-site{
+      color: inherit;
+      font-weight: 610;
+      line-height: 1.1;
+      color: #000000;
+      font-size: large;
+      padding: 10px;
+}  */
+
+
+/* Design exemple de sites caroussel  */
+
+.container-xxl{
+  background-color: #46CBB1;
+  padding: 50px 0;
+}
+
+.carousel-indicators [data-bs-target]{
+  background-color: #46CBB1;
+  margin-top: 200px;
+}
+
+.Plus-dexemples{
+  margin-top: 80px;
+  text-align: center;
+}
+
+.texte-vert{
+  color:#46CBB1
+} 
+
+
+.Plus-dexemples .btn-success{
+background-color: #000000;
+color:#f5f5f5
+} 
+
+.Plus-dexemples .btn-success:hover{
+  opacity: 0.88;
+}
+
+
+.back-exemple .pensez{
+  color:#000000
+}
+
+.back-exemple .spealise{
+  color:#000000
+}
+
+.afficher-center{
+  text-align: center;
+}
+
+.afficher-center a{
+  font-size: large;
+  color: #000000;
+  background-color:#46CBB1 ;
+}
+
+.plus-hover:hover{
+  opacity: 0.8;
+}
+
+
+  /*  Exemple site */
+
+  
+ .show .img-fluid{
+   height: 100%;
+   width: 100%;
+ }
+
+
+.owl-carousel{
+  background-color: #46CBB1;
+}
+
+
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev {
+    background: 0 0;
+    color: #000000 !important;
+    border: none;
+    padding: 1px 20px !important;
+    font: inherit;
+    font-size: 30px !important
+}
+
+.owl-carousel .owl-nav button.owl-next:hover,
+.owl-carousel .owl-nav button.owl-prev:hover {
+    color: #010000 !important;
+    background-color: transparent !important; 
+    opacity: 0.88;
+}
+
+.owl-dots {
+    display: none
+}
+
+
+.item {
+    position: relative;
+    padding: 3px;
+    border-radius: 1px;
+    background: #fff;
+    border-radius: 3px;
+    box-shadow: 0 0 0 1px rgb(55 63 67 / 8%), 0 2px 5px rgb(151 131 81 / 12%);
+}
+
+.next {
+    display: block !important;
+    position: relative;
+    transform: scale(0.8);
+    transition-duration: 0.3s;
+    opacity: 0.6
+}
+
+.prev {
+    display: block !important;
+    position: relative;
+    transform: scale(0.8);
+    transition-duration: 0.3s;
+    opacity: 0.6
+}
+
+.item.show {
+    display: block;
+    transition-duration: 0.5s
+}
+
+@media screen and (max-width: 999px) {
+
+    .next,
+    .prev {
+        transform: scale(1);
+        opacity: 1
+    }
+
+    .item {
+        display: block !important
+    }
+}
+
+/* Bouton voir le site carrière */
+
+.hovereffect {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+
+.hovereffect .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-transition: all 0.4s cubic-bezier(0.88, -0.99, 0, 1.81);
+  transition: all 0.3s cubic-bezier(0.88, -0.99, 0, 1.81);
+}
+
+/* .hovereffect img {
+  display: block;
+  position: relative;
+  -webkit-transition: all 0.4s cubic-bezier(0.88, -0.99, 0, 1.81);
+  transition: all 0.4s cubic-bezier(0.88, -0.99, 0, 1.81);
+} */
+
+
+.hovereffect a.info {
+  text-decoration: none;
+  display: inline-block;
+  text-transform: none;
+  color: rgb(0, 0, 0);
+  border-radius: 3px;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  margin-top: 110px;
+  font-size: 15px;
+  font-weight: 400;
+  width: 130px;
+  padding: 7px;
+  background-color: #46CBB1;
+  border-color: rgba(0,0,0,.17);
+  box-shadow: 0 1px 2px rgb(0 0 0 / 15%);
+  font-weight: 600;
+}
+
+
+.hovereffect:hover .overlay {
+  opacity: 1;
+  padding: 10px;
+}
+
+.hovereffect:hover a.info {
+  filter: alpha(opacity=100);
+  -ms-transform: translatey(0);
+  -webkit-transform: translatey(0);
+  transform: translatey(0);
+  opacity: 0.90;
+  border-color: transparent;
+}
+
+.hovereffect:hover a.info {
+  -webkit-transition-delay: .2s;
+  transition-delay: .2s;
+}
+
+
+/* Page nos Exemples de site internet  */
+
+
+.bg-dark-page{
+  background:  url(assets/img/Sanstitre2.png);
+  background-color: transparent;
+  color: white;
+  height: 200px;
+  width: 100%;
+}
+
+.page-site-exemples{
+  background-color: #ffffff;
+  margin: 50px 0px 50px 0px;
+}
+
+.espace-bloc-exemples{
+  margin-bottom: 2rem;
+}
+
+.je-veux-un-site-exemple .btn-success{
+  text-align:center; 
+  background-color: #46CBB1;
+  margin-top: 1rem;
+  margin-bottom: 2.7rem;
+  color: #000000;
+  padding: 8px;
+}
+
+.je-veux-un-site-exemple .btn-success:hover{
+  opacity: 0.90;
+}
+
+
+/* Page Blog */
+
+
+
+/* Page Contact */
+
+
+.background-header-contact{
+  background:  url(assets/img/Sanstitre2.png) ;
+  background-color: transparent;
+  color: white;
+  height: 205px;
+  width: 100% ;
+}
+
+.block-contact{
+  background-color: #e8eef3;
+  margin: 3rem auto;
+  color: black;
+  padding: 40px;
+
+}
+
+.envoi-mail{
+  margin-top: 40px;
+}
+
+.envoi-mail .btn-success{
+  text-align:center; 
+  background-color: #46CBB1;
+  color: #000000;
+  padding: 8px;
+  width: 120px;
+}
+
+.left-contact-block{
+  background-color:transparent;
+  padding: 40px;
+}
+
+.left-contact-block .footer-picto{
+  margin-top: 50px;
+}
+
+.left-contact-block .btn-success{
+  background-color: white;
+  color: #46CBB1;
+}
+
+.left-contact-block  .col{
+  margin: 30px;
+  line-height: 34px;
+}
+
+.left-contact-block .btn-success :hover{
+  opacity: 0.88;
+}
+
+.devis-titre-contact{
+  text-align: center;
+  color: #000000;
+  font-size:30px;
+  padding-top:20px;
+}
+
+.form-check-input{
+  color: #f7f2f2;
+}
+
+.contact-e-mail{
+  text-decoration: none;
+}
+
+.contact-e-mail:hover{
+  color: #000000;
+}
+
+/* Footer  */
+
+footer{
+ margin-top: -6px;
+}
+
+footer .row{
+  background-color: #000000;
+  color: white;
+  padding:40px 50px;
+  overflow-y: hidden;
+  margin: 0;
+}
+
+footer .coypwrights{
+  background-color: #46CBB1 ;
+  color: #000000;
+  text-decoration: none;
+  font-weight: 600;
+  font-style: bold;
+  line-height:5px;
+}
+
+
+footer .coypwrights:hover{
+ text-decoration: underline;
+}
+
+
+.footer-picto a{
+  text-decoration: none;
+}
+
+
+footer .my-4 {
+ margin-bottom: 0.1rem!important;
+
+}
+
+a .material-icons{
+ color: #46CBB1;
+ padding: 0 0 0 300px;
+ position: absolute;
+ font-size: 30px;
+}
+
+@media  screen and (max-width:700px) {
+ a .material-icons{
+   padding: 0px;
+ }
+}
