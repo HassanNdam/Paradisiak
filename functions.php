@@ -29,10 +29,6 @@ add_action('wp_enqueue_scripts', 'paradisiak_style');
 // // }
 
 
-
-
-
-
 // function menu_paradisiak(){
 
 //     $location = array(
@@ -46,5 +42,13 @@ add_action('wp_enqueue_scripts', 'paradisiak_style');
 // }
 
 // add_action('init', 'menu_paradisiak');
+
+
+function Envoi_Mail (){
+    if(isset($_POST['nom'])){
+        $nom = $_POST["nom"];
+        echo "<br> <center> <strong>Merci!</strong> Votre message a été envoyé avec succés aux équipes de chez Paradisiak.</center>";
+    }
+}
 
 ?>

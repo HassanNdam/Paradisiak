@@ -51,8 +51,8 @@
           <h1 class="site-carriere"> Votre site carrière <strong>sur-mesure.</strong> </h1>
           <div class="">
           <br>
-          <p class="lead fw-normal">Attirez les meilleurs talents et faites exploser votre référencement.</p>
-            <a href="<?php echo $page_contact; ?>"><button type="button" class="btn btn-success">Demandez un devis !</button>
+          <p class="lead fw-normal">Attirez les meilleurs talents et faites exploser <br>votre référencement !</p>
+            <a href="<?php echo $page_contact; ?>"><button type="button" class="btn btn-success">Demandez un devis</button>
           </a>
           </div>
         </div>

@@ -62,25 +62,29 @@ Page contact Paradisiak
 
 <h2 class="devis-titre-contact">Demandez un devis pour votre site carrière !</h2>
 
+<?php 
+   Envoi_Mail();
+?>
+
 <div class="container block-contact border rounded-2">
   <div class="row">
       <div class="col-sm-8">
-        <form class="row g-3" methode="post" action="<?php echo $page_contact ?>" >
+        <form class="row g-3" method="POST" action="<?php echo $page_contact ?>" >
           <div class="col-md-6">
             <label for="nom" class="form-label">Nom</label>
-            <input type="text" class="form-control" id="nom" maxlength="50" placeholder="Nom">
+            <input type="text" class="form-control" id="nom" name="nom" maxlength="50" placeholder="Nom">
           </div>
           <div class="col-md-6">
-            <label for="phone" class="form-label">Téléphone</label>
-            <input type="tel" class="form-control" id="phone" name="phone" maxlength="13"  placeholder="Téléphone" >
+            <label for="telephone" class="form-label">Téléphone</label>
+            <input type="tel" class="form-control" id="telephone" name="telephone" name="telephone" maxlength="13"  placeholder="Téléphone" >
           </div>
           <div class="col-6">
             <label for="societe" class="form-label">Société</label>
-            <input type="text" class="form-control" id="societe" maxlength="50" placeholder="Société">
+            <input type="text" class="form-control" id="societe" name="societe" maxlength="50" placeholder="Société">
           </div>
           <div class="col-6">
             <label for="email" class="form-label">Adresse e-mail</label><span class="point-5"> *</span>
-            <input type="email" class="form-control" id="email" maxlength="50" required placeholder="Adresse email">
+            <input type="email" class="form-control" id="email" name="email" maxlength="50" required placeholder="Adresse email">
           </div>
           <div class="mb-3">
             <label for="message" class="form-label">Message</label>
@@ -95,7 +99,7 @@ Page contact Paradisiak
             </div>
           </div>
           <div class="col-12 text-center envoi-mail">
-            <button type="submit" class="btn btn-success">Envoyer</button>
+            <button type="submit" class="btn btn-success" name="envoyer">Envoyer</button>
           </div>
         </form>
       </div>
