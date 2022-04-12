@@ -846,7 +846,7 @@ footer{
 footer .row{
   background-color: #000000;
   color: white;
-  padding:40px 50px;
+  padding:20px 50px 0px 50px;
   overflow-y: hidden;
   margin: 0;
 }
@@ -873,7 +873,6 @@ footer .coypwrights:hover{
 
 footer .my-4 {
  margin-bottom: 0.1rem!important;
-
 }
 
 a .material-icons{
