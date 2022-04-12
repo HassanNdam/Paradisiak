@@ -8,10 +8,12 @@
 
 <div class="container marketing">
       <h1 class="creer-site-titre">
-       <span class="paradisiak-text2"><span class="point-1">P</span>aradisiak,</span> l'agence Web des recruteurs<span class="bleu-texte">!</span>
+       <span class="paradisiak-text2"><span class="point-1">P</span>aradisiak<span class="point-4">,</span></span>
       </h1> 
+      <h1 class="creer-texte-ligne">
+        l<span class="point-2">'</span>agence Web des recruteurs<span class="bleu-texte"> !</span>
+      </h1>
 </div>
-
 <div class="container"> <span id="apropos"></span>
             <div class="row featurette">
               <div class="col-md-6">

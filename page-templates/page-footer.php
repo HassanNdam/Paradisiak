@@ -6,14 +6,6 @@
       </a>
     </div>
     <div class="col-6 col-md">
-      <h5>Siège social</h5>
-      <ul class="list-unstyled text-small">
-      <p>Intuition Software<br>
-					10 rue du Colisée<br>
-					75008 Paris</p>
-      </ul>
-    </div>
-    <div class="col-6 col-md">
       <h5>Bureaux</h5>
       <ul class="list-unstyled text-small">
         <p>Paradisiak<br>
