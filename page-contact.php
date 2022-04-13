@@ -62,46 +62,13 @@ Page contact Paradisiak
 
 <h2 class="devis-titre-contact">Demandez un devis pour votre site carrière !</h2>
 
-<?php 
-   Envoi_Mail();
-?>
 
 <div class="container block-contact border rounded-2">
   <div class="row">
       <div class="col-sm-8">
-        <form class="row g-3" method="POST" action="<?php echo $page_contact ?>" >
-          <div class="col-md-6">
-            <label for="nom" class="form-label">Nom</label>
-            <input type="text" class="form-control" id="nom" name="nom" maxlength="50" placeholder="Nom">
-          </div>
-          <div class="col-md-6">
-            <label for="telephone" class="form-label">Téléphone</label>
-            <input type="tel" class="form-control" id="telephone" name="telephone" name="telephone" maxlength="13"  placeholder="Téléphone" >
-          </div>
-          <div class="col-6">
-            <label for="societe" class="form-label">Société</label>
-            <input type="text" class="form-control" id="societe" name="societe" maxlength="50" placeholder="Société">
-          </div>
-          <div class="col-6">
-            <label for="email" class="form-label">Adresse e-mail</label><span class="point-5"> *</span>
-            <input type="email" class="form-control" id="email" name="email" maxlength="50" required placeholder="Adresse email">
-          </div>
-          <div class="mb-3">
-            <label for="message" class="form-label">Message</label>
-            <textarea class="form-control" id="message" rows="4" placeholder="Message"></textarea>
-          </div>
-          <div class="col-12">
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" id="gridCheck" required>
-              <label class="form-check-label" for="gridCheck">
-              En soumettant ce formulaire, j'accepte que les informations saisies soient utilisées pour me recontacter dans le cadre de la relation commerciale qui peut découler de cette demande.
-              </label>
-            </div>
-          </div>
-          <div class="col-12 text-center envoi-mail">
-            <button type="submit" class="btn btn-success" name="envoyer">Envoyer</button>
-          </div>
-        </form>
+          <?php 
+            echo do_shortcode("[forminator_form id='29']"); 
+          ?>
       </div>
 
       <div class="col-sm-4 text-center rounded-1 left-contact-block" >
