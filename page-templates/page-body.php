@@ -8,7 +8,7 @@
 
 <div class="container marketing">
       <h1 class="creer-site-titre">
-       <span class="paradisiak-text2"><span class="point-1">P</span>aradisiak<span class="point-4">,</span></span>
+       <span class="paradisiak-text2"><span class="point-1">P</span>aradisiak,</span>
       </h1> 
       <h1 class="creer-texte-ligne">
         l<span class="point-2">'</span>agence Web des recruteurs<span class="bleu-texte"> !</span>
@@ -139,7 +139,7 @@
                   <h2 class="featurette-heading pensez"><span class="point-1">P</span>ensez<span class="point-1">.</span> <span class="point-1">N</span>ous Réalisons<span class="point-1">.</h2>
                   <p class="lead spealise">Créez votre nouveau site carrière avec Paradisiak !</p>  
                    <a class="devis-pensez" href="<?php echo $page_contact; ?>">
-                      <button type="button" class="btn btn-success">Demandez un devis !</button>
+                      <button type="button" class="btn btn-success">Demandez un devis </button>
                   </a>     
         </div>
 </div>

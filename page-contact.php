@@ -120,8 +120,8 @@ Page contact Paradisiak
         <div class="col">
           <i class="fa fa-phone"></i> 
            <a href="tel:+0145260873">
-          <button class="btn btn-success"> 01 45 26 08 73</button>
-	        </a>
+            <button class="btn btn-success">01 45 26 08 73</button>
+	         </a>
         </div>
 
         <div class="col footer-picto">
