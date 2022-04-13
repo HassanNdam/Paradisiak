@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php bloginfo('name'); ?></title>
     <link rel="stylesheet" href="<?php echo(get_template_directory_uri() . '/assets/css/404.css') ?>">
+    <link rel="icon" href="<?php echo(get_template_directory_uri() . '/assets/icone/FavIcone1.png') ?>" sizes="16x16 32x32 48x48 64x64" >
 </head>
 <body class="bg-purple">
         
@@ -41,9 +42,12 @@
                 <div class="star"></div>
                 <div class="star"></div>
                 <div class="star"></div>
-
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
             </div>
-
         </div>
 </body>
 </html>

@@ -128,7 +128,7 @@ li a:hover {
     background-color: #46CBB1;
 }
 
-.btn-request:hover{
+.btn-request:hover .btn-go-home:hover{
     background-color: #46CBB1;
     color: rgb(0, 0, 0);
     transform: scale(1.05);
@@ -203,9 +203,6 @@ li a:hover {
     left: 25%;
 }
 
-.earth-moon{
-    
-}
 
 .object_astronaut{
     animation: rotate-astronaut 200s infinite linear both alternate;
