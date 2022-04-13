@@ -19,7 +19,7 @@
 
   ?>
   </head>
-  <body oncontextmenu='return false' class='snippet-body'>
+  <body>
     
 <header class="site-header"> 
   <nav class="navbar navbar-expand-md container d-flex flex-column flex-md-row justify-content-between">
