@@ -50,9 +50,8 @@ Page contact Paradisiak
  <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center background-header-contact">
     <main>
        <div class="col header-text"> 
-          <h1 class="site-carriere"> Une idée de site carrière ? </h1>
+          <h1 class="site-carriere"> Un besoin de site carrière ? </h1>
           <div class="">
-          <br>
           <p class="lead fw-normal">Contactez <strong> Paradisiak</strong></p>
           </div>
         </div>

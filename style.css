@@ -132,12 +132,17 @@ p{
     text-align: start;
   }
 
+  .col .lead{
+    margin-top: 20px;
+  }
+
   .lead{
     margin-bottom: 30px;
   }
 
   .nous-sommes-texte{
-    margin-top: 90px;
+    margin-top: 80px;
+    padding: 25px;
   }
 
   .titre-site-slider{
@@ -194,41 +199,6 @@ p{
   }
   
   
-  /*
-   * Design Telephone back header
-   */
-  
-  /* .product-device {
-    position: absolute;
-    right: 10%;
-    bottom: -30%;
-    width: 300px;
-    height: 500px;
-    background-color: #e8eef3;
-    border-radius: 21px;
-    transform: rotate(30deg);
-
-  }
-  
-  .product-device::before {
-    position: absolute;
-    top: 5%;
-    right: 10px;
-    bottom: 10%;
-    left: 10px;
-    content: "";
-    background-color: white;
-    border-radius: 5px;
-    background-image: url(./assets/img/back.PNG);
-  } */
-  
-  .product-device-2 {
-    top: -25%;
-    right: auto;
-    bottom: 0;
-    left: 5%;
-    background-color: #e8eef3;
-  }
   
   
   /*
@@ -308,12 +278,10 @@ p{
   }
 
   .container-fluid{
-    /* background: url(assets/img/background2.jpg); */
     height: 100%;
     width: 100%;
     background-color: #000000;
     margin-bottom: 0rem;
-    /* background-image:linear-gradient(rgb(255, 205, 0),#FE0090) ; */
   }
 
   .pensez{
@@ -367,7 +335,7 @@ p{
   margin-bottom: 1rem;
   color: #000000;
   padding: 8px;
-
+  border: #f7f2f2;
   }
 
   .je-veux-un-site .btn-success:hover{
@@ -397,6 +365,16 @@ p{
     font-size:30px;
     padding-top:9px;
   }
+
+.intuition-lien{
+    color: #fff;
+    font-weight: 600;
+  }
+
+.intuition-lien:hover{
+  color: #fff;
+  text-decoration: none;
+}
 
   .etape-3 texte-desc{
     text-align: justify;
@@ -445,76 +423,6 @@ p{
   position: relative;
  
 }
-/* .telephone::before{
-  position: absolute;
-  top: 5%;
-  right: 10px;
-  bottom: 10%;
-  left: 10px;
-  content: "Paradisiak, avec VOUS!" ;
-  background-color: rgb(253, 253, 253);
-  background-image: url(assets/portfolio/Compiene_pc.PNG) none; 
-  
-} */
-
-/* .left-bloc3{
-  position:absolute;
-  width: 265px;
-  height: 450px;
-  left: 10px;
-  top: -28%;
-  background-color: #e8eef3;
-  border-radius: 21px;
-}
-
-.right-bloc3{
-  position:absolute;
-  width: 265px;
-  height: 450px;
-  right: 10px;
-  top: -28%;
-  background-color: #e8eef3;
-  border-radius: 21px;
-}
-
-@media screen and (max-width:760px) {
-  .right-bloc3, .left-bloc3{
-    display:none;
-  }
-  
-} */
-
-   /*
-   * Footer
-   */
-   /* .avant-footer{
-     background-color: #f0f0f0; 
-     margin-top: 10rem;
-   }
-
-   .avant-footer .btn-success{
-     background-color:#46CBB1;
-     color: #000000;
-
-   }
-
-   .avant-footer .btn-success:hover{
-     opacity: 0.9;
-   }
-
-   .avant-footer-back{
-    padding: 20px;
-  }
-
-   .obtenez-site{
-      color: inherit;
-      font-weight: 610;
-      line-height: 1.1;
-      color: #000000;
-      font-size: large;
-      padding: 10px;
-}  */
-
 
 /* Design exemple de sites caroussel  */
 
@@ -537,7 +445,6 @@ p{
   color:#46CBB1
 } 
 
-
 .Plus-dexemples .btn-success{
 background-color: #000000;
 color:#f5f5f5
@@ -546,7 +453,6 @@ color:#f5f5f5
 .Plus-dexemples .btn-success:hover{
   opacity: 0.88;
 }
-
 
 .back-exemple .pensez{
   color:#000000
@@ -561,7 +467,7 @@ color:#f5f5f5
 }
 
 .afficher-center a{
-  font-size: large;
+  font-size: 20px;
   color: #000000;
   background-color:#46CBB1 ;
 }
@@ -676,14 +582,6 @@ color:#f5f5f5
   transition: all 0.3s cubic-bezier(0.88, -0.99, 0, 1.81);
 }
 
-/* .hovereffect img {
-  display: block;
-  position: relative;
-  -webkit-transition: all 0.4s cubic-bezier(0.88, -0.99, 0, 1.81);
-  transition: all 0.4s cubic-bezier(0.88, -0.99, 0, 1.81);
-} */
-
-
 .hovereffect a.info {
   text-decoration: none;
   display: inline-block;
@@ -697,7 +595,7 @@ color:#f5f5f5
   margin-top: 110px;
   font-size: 15px;
   font-weight: 400;
-  width: 130px;
+  width: 190px;
   padding: 7px;
   background-color: #46CBB1;
   border-color: rgba(0,0,0,.17);
@@ -726,7 +624,7 @@ color:#f5f5f5
 }
 
 
-/* Page nos Exemples de site internet  */
+/* Page Nos Exemples */
 
 
 .bg-dark-page{
@@ -739,7 +637,7 @@ color:#f5f5f5
 
 .page-site-exemples{
   background-color: #ffffff;
-  margin: 50px 0px 50px 0px;
+  margin: 50px 0px 0px 0px;
 }
 
 .espace-bloc-exemples{
@@ -753,6 +651,50 @@ color:#f5f5f5
   margin-bottom: 2.7rem;
   color: #000000;
   padding: 8px;
+  border: #f7f2f2;
+}
+
+.texte-bloc-exemples{
+  margin-top: 50px;
+  text-align: justify;
+}
+
+.facilitez-texte{
+  color: #46CBB1;
+  font-weight: 700;
+  font-size: 40px;
+}
+.simplifiez-texte{
+  color: #FE0090 ;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.captez-texte{
+  color: #FF9200;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.text-italic{
+  font-style: italic;
+}
+
+.texte-confiance{
+  text-align: center;
+  color: #000000;
+  font-size: 60px;
+  padding-top:20px;
+  margin-bottom: 5rem;
+  font-weight: 550;
+}
+
+.bloc-nos-clients{
+  width: 500px;
+}
+
+.block-confiance{
+  margin-top: 50px;
 }
 
 .je-veux-un-site-exemple .btn-success:hover{

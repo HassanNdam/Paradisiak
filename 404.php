@@ -17,7 +17,7 @@
                 </div>
                 <div class="navbar-links">
                     <ul>
-                      <li><a href="<?php echo $page_contact; ?>" class="btn-request">Demander un devis</a></li>
+                      <li><a href="<?php echo $page_contact; ?>" class="btn-request">Contactez Paradisiak</a></li>
                     </ul>
                 </div>
             </div>

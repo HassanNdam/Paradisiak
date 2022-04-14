@@ -41,11 +41,10 @@
 
  <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-dark-page">
     <main>
-       <div class="col  header-text">
-          <h1 class="site-carriere ">Exemples de sites carrière  </h1>
+       <div class="col header-text">
+          <h1 class="site-carriere">En savoir plus </h1>
           <div class="">
-          <br>
-          <p class="lead fw-normal">Découvrez les sites conçus par <strong>Paradisiak</strong> ! </p>
+          <p class="lead fw-normal">On vous accompagne dans la conception de votre  <br>page carrière</p>
           </div>
       </div>
  </div>
