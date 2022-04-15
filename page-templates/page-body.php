@@ -45,12 +45,12 @@
       <div class="col-md-6">
         <div class="h-100 p-5 text-white bg-dark rounded-3">
             <div class="row">
-                  <div class="col-2 col-sm-3"><h1 class="etape">2<span class="point-2">.</span></h1></div>
+                  <div class="col-2 col-sm-3"><h1 class="etape">2<span class="point-3">.</span></h1></div>
                   <div class="col"><h2 class="espace">Transformez vos visiteurs en candidats.</h2></div>
             </div>
           <p>Optez pour une page emploi intuitive, en simplifiant l’action de candidater (questionnaires, formulaires,  filtres, <br>confirmations de réception
               automatiques, pièces-jointes...)</p>
-              <h4 class="point-2">Objectif 100 % de candidatures !</h4>
+              <h4 class="point-3">Objectif 100 % de candidatures !</h4>
         </div>
       </div>
     </div>
@@ -58,13 +58,13 @@
        <div class="col-md-6">
         <div class="h-100 p-5 bg-dark border rounded-3">
             <div class="row">
-                  <div class="col-2 col-sm-3"><h1 class="etape">3<span class="point-3">.</span></h1></div>
+                  <div class="col-2 col-sm-3"><h1 class="etape">3<span class="point-2">.</span></h1></div>
                   <div class="col"><h2 class="espace">Optimisez le référencement naturel. </h2></div>     
             </div>  
             <p>Les solutions de Paradisiak sont pensées pour être très efficaces dans la création de l’afflux de candidats.
                 </p>
                 <br> <br>
-             <h4 class="point-3">Boostez votre notoriété !</h4>        
+             <h4 class="point-2">Boostez votre notoriété !</h4>        
         </div>
       </div> 
       <div class="col-md-6">
@@ -139,8 +139,8 @@
 
 <div class="container-fluid text-center">
         <div class="row" >
-                  <h2 class="featurette-heading pensez"><span class="point-1">P</span>ensez<span class="point-1">.</span> <span class="point-1">N</span>ous Réalisons<span class="point-1">.</h2>
-                  <p class="lead spealise">Créez votre nouveau site carrière avec Paradisiak !</p>  
+                  <h2 class="featurette-heading pensez"><span class="point-1">C</span>hez Paradisiak<span class="point-1">.</span> <span class="point-1">N</span>ous Réalisons<span class="point-1">.</h2>
+                  <p class="lead spealise">Confiez votre site carrière à nos experts RH !</p>  
                    <a class="devis-pensez" href="<?php echo $page_contact; ?>">
                       <button type="button" class="btn btn-success">Demandez un devis </button>
                   </a>     
