@@ -300,7 +300,7 @@ p{
     color: #f7f5f5;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 10px 30px 30px 30px;
+    padding: 10px 30px 3px 30px;
     line-height: 3rem;
   }
 
@@ -367,13 +367,15 @@ p{
   }
 
 .intuition-lien{
-    color: #fff;
-    font-weight: 600;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    text-decoration: none;
   }
 
 .intuition-lien:hover{
-  color: #fff;
-  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+  text-decoration: underline;
 }
 
   .etape-3 texte-desc{
@@ -470,6 +472,8 @@ color:#f5f5f5
   font-size: 20px;
   color: #000000;
   background-color:#46CBB1 ;
+  text-decoration: none;
+  font-weight: 700;
 }
 
 .plus-hover:hover{
@@ -505,7 +509,7 @@ color:#f5f5f5
 .owl-carousel .owl-nav button.owl-prev:hover {
     color: #010000 !important;
     background-color: transparent !important; 
-    opacity: 0.88;
+    opacity: 1;
 }
 
 .owl-dots {
@@ -519,7 +523,7 @@ color:#f5f5f5
     border-radius: 1px;
     background: #fff;
     border-radius: 3px;
-    box-shadow: 0 0 0 1px rgb(55 63 67 / 8%), 0 2px 5px rgb(151 131 81 / 12%);
+    box-shadow: 0 0 0 5px rgb(55 63 67 / 8%), 0 2px 5px rgb(151 131 81 / 12%);
 }
 
 .next {
@@ -527,7 +531,7 @@ color:#f5f5f5
     position: relative;
     transform: scale(0.8);
     transition-duration: 0.3s;
-    opacity: 0.6
+    opacity: 0.9
 }
 
 .prev {
@@ -535,7 +539,7 @@ color:#f5f5f5
     position: relative;
     transform: scale(0.8);
     transition-duration: 0.3s;
-    opacity: 0.6
+    opacity: 0.9
 }
 
 .item.show {
@@ -592,10 +596,10 @@ color:#f5f5f5
   filter: alpha(opacity=0);
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
-  margin-top: 110px;
+  margin-top: 200px;
   font-size: 15px;
   font-weight: 400;
-  width: 190px;
+  width: 160px;
   padding: 7px;
   background-color: #46CBB1;
   border-color: rgba(0,0,0,.17);
@@ -633,6 +637,15 @@ color:#f5f5f5
   background-size: cover;
   color: white;
   height: 200px;
+}
+
+.titre-header-page{
+  font-size: 35px;
+  text-align: justify;
+}
+
+.text-titre-header .p-md-5{
+  padding:1rem !important;
 }
 
 .page-site-exemples{
@@ -690,7 +703,7 @@ color:#f5f5f5
 }
 
 .bloc-nos-clients{
-  width: 500px;
+  width: 650px;
 }
 
 .block-confiance{
@@ -754,7 +767,7 @@ color:#f5f5f5
 }
 
 .left-contact-block  .col{
-  margin: 30px;
+  margin: 15px;
   line-height: 34px;
 }
 

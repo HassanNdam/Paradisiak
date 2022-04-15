@@ -15,8 +15,8 @@ include 'page-header.php';
                 <div class="h-100 text-dark bg-white rounded-3">
                     <div class="row">
                         <p class="lead texte-bloc-exemples">
-                            <span class="facilitez-texte">Facilitez</span> la recherche à vos candidats grâce à des moteurs de recherche personnalisées.
-                            <span class="text-italic">Recherche par lieu, mot clefs, typologie de métiers…</span>
+                            <span class="facilitez-texte">Facilitez</span> la recherche à vos candidats grâce à des moteurs de recherche personnalisées :
+                            <span class="text-italic">recherche par lieu, mot clefs, typologie de métiers…</span>
                         <p>
                     </div>
                 </div>
@@ -24,7 +24,7 @@ include 'page-header.php';
             <div class="col-md-6">
                 <div class="h-100 text-white bg-white rounded-3">
                     <div class="row">
-                        <img src="<?php echo(get_template_directory_uri() . '/assets/portfolio/Exemple1.png') ?>" class="img-fluid" alt="Exemple de site" >
+                        <img src="<?php echo(get_template_directory_uri() . '/assets/portfolio/exemple1.png') ?>" class="img-fluid" alt="Exemple de site" >
                     </div>
                 </div>
             </div>
@@ -33,7 +33,7 @@ include 'page-header.php';
             <div class="col-md-6">
                 <div class="h-100 text-white bg-white  rounded-3">
                     <div class="row">
-                        <img src="<?php echo(get_template_directory_uri() . '/assets/portfolio/Exemple2.png') ?>" class="img-fluid" alt="Exemple de site" >
+                        <img src="<?php echo(get_template_directory_uri() . '/assets/portfolio/exemple2.png') ?>" class="img-fluid" alt="Exemple de site" >
                     </div>
                 </div>
             </div>
@@ -85,21 +85,21 @@ include 'page-header.php';
                         <img src="<?php echo(get_template_directory_uri() . '/assets/logo/logo-pichet.svg') ?>" class="img-fluid" alt="">
                     </a>
                 </div>
-                <div class="col">
-                    <a href="https://admr76.candidater.fr/" target="_blank">
-                            <img src="<?php echo(get_template_directory_uri() . '/assets/logo/logo-admr.png') ?>" class="img-fluid" alt="">
+                 <div class="col">
+                    <a href="https://soredes.candidater.fr/" target="_blank">
+                     <img src="<?php echo(get_template_directory_uri() . '/assets/logo/logo-soredes.png') ?>" class="img-fluid" alt="">
                     </a>
-                 </div>
+                </div>
             </div>
             <div class="row text-center block-confiance">
-                <div class="col">
-                    <a href="https://1001repas.candidater.fr/" target="_blank">
-                            <img src="<?php echo(get_template_directory_uri() . '/assets/logo/1001repas.png') ?>" class="img-fluid" alt="">
-                    </a>
-                 </div>
                  <div class="col">
                     <a href="https://recrutement.agglo-compiegne.fr/" target="_blank">
                             <img src="<?php echo(get_template_directory_uri() . '/assets/logo/mairi.png') ?>" class="img-fluid" alt="">
+                    </a>
+                 </div>
+                 <div class="col">
+                    <a href="https://1001repas.candidater.fr/" target="_blank">
+                            <img src="<?php echo(get_template_directory_uri() . '/assets/logo/1001etrepas.png') ?>" class="img-fluid" alt="">
                     </a>
                  </div>
                  <div class="col">
@@ -110,10 +110,10 @@ include 'page-header.php';
             </div>
             <div class="row text-center block-confiance">
                 <div class="col">
-                    <a href="https://soredes.candidater.fr/" target="_blank">
-                     <img src="<?php echo(get_template_directory_uri() . '/assets/logo/logo-soredes.png') ?>" class="img-fluid" alt="">
+                    <a href="https://admr76.candidater.fr/" target="_blank">
+                            <img src="<?php echo(get_template_directory_uri() . '/assets/logo/logo-admr.png') ?>" class="img-fluid" alt="">
                     </a>
-                </div>
+                 </div>
                 <div class="col">
                     <a href="http://martinetinvest.candidater.fr/" target="_blank">
                         <img src="<?php echo(get_template_directory_uri() . '/assets/logo/logo-martinet.png') ?>" class="img-fluid" alt="">
@@ -129,7 +129,7 @@ include 'page-header.php';
 
 <p class="un-site">
     <a class="je-veux-un-site-exemple" href="<?php echo $page_contact; ?>">
-              <button type="button" class="btn btn-success">Demander un devis </button>
+              <button type="button" class="btn btn-success">Demandez un devis </button>
     </a> 
 </p>
 
