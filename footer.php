@@ -38,7 +38,7 @@
        </ul>
      </div>
     <div class="d-flex justify-content-center py-4 my-4 border-top">
-      <p> Copyright © <a class ="coypwrights"href="https://paradisiak.com/" alt="Réalisé par Paradisiak"> Paradisiak</a>  © 2022 Tous droits réservés</p>
+      <p> Copyright ©  Paradisiak © 2022 Tous droits réservés</p>
       <a href="#">
       <i class="material-icons">keyboard_arrow_up</i>
       </a> 
