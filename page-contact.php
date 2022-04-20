@@ -30,11 +30,11 @@ Page contact Paradisiak
             <img src="<?php echo (get_template_directory_uri(). '/assets/logo/logo-large.png');?>"  alt="" height="65" width="200"> 
       </a>
 
-      <a class="d-none d-md-inline-block apropos" href="#apropos">
+      <a class="d-none d-md-inline-block apropos" href="<?php echo get_site_url()."#apropos";?>">
       <span class="point-4">À</span> propos de nous
       </a>
-      <a class="d-none d-md-inline-block exemples" href="<?php echo $page_exemples ?>">
-      <span class="point-2">E</span>xemples
+      <a class="d-none d-md-inline-block exemples" href="<?php echo get_site_url(). '#exemples';?>">
+      <span class="point-2">N</span>os réalisations
       </a>
       <a class="d-none d-md-inline-block blog" href="<?php echo $page_blog; ?>">
       <span class="point-1">N</span>otre blog

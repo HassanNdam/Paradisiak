@@ -21,12 +21,11 @@
       <a class="py-1 " href="<?php echo get_site_url();?>" aria-label="Product" style="margin-Left:-47px">
             <img src="<?php echo (get_template_directory_uri(). '/assets/logo/logo-large.png');?>"  alt="" height="65" width="200"> 
       </a>
-      <a class="d-md-inline-block apropos" href="#apropos">
+      <a class="d-none d-md-inline-block apropos" href="<?php echo get_site_url()."#apropos";?>">
       <span class="point-4">À</span> propos de nous
       </a>
-      <a class="d-md-inline-block exemples" href="<?php echo $page_exemples; ?>">
-      <span class="point-2">E</span>xemples
-      </a>
+      <a class="d-none d-md-inline-block exemples" href="<?php echo get_site_url(). '#exemples';?>">
+      <span class="point-2">N</span>os réalisations
       <a class="d-md-inline-block blog" href="<?php echo $page_blog; ?>">
       <span class="point-1">N</span>otre blog
       </a>
@@ -44,7 +43,7 @@
        <div class="col header-text">
           <h1 class="site-carriere titre-header-page">En savoir plus </h1>
           <div class="">
-          <p class="lead fw-normal">On vous accompagne dans la conception de votre  <br>page carrière. </p>
+          <p class="lead fw-normal">On vous accompagne dans la réalisation de votre  <br>page carrière. </p>
           </div>
       </div>
  </div>

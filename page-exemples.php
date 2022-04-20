@@ -71,67 +71,7 @@ include 'page-header.php';
 </div>
 
 
-    <h2 class="texte-confiance">Ils font confiance à <span class="point-1">Paradisiak !</span></h2>
-            
-    <div class="container bloc-nos-clients">
-            <div class="row text-center block-confiance">
-                <div class="col">
-                    <a href="https://recrutement.intersport.fr/" target="_blank">
-                     <img src="<?php echo(get_template_directory_uri() . '/assets/logo/logo_is.svg') ?>" class="img-fluid" alt="">
-                    </a>
-                </div>
-                <div class="col">
-                    <a href="https://emploi.pichet.fr/" target="_blank">
-                        <img src="<?php echo(get_template_directory_uri() . '/assets/logo/logo-pichet.svg') ?>" class="img-fluid" alt="">
-                    </a>
-                </div>
-                 <div class="col">
-                    <a href="https://soredes.candidater.fr/" target="_blank">
-                     <img src="<?php echo(get_template_directory_uri() . '/assets/logo/logo-soredes.png') ?>" class="img-fluid" alt="">
-                    </a>
-                </div>
-            </div>
-            <div class="row text-center block-confiance">
-                 <div class="col">
-                    <a href="https://recrutement.agglo-compiegne.fr/" target="_blank">
-                            <img src="<?php echo(get_template_directory_uri() . '/assets/logo/mairi.png') ?>" class="img-fluid" alt="">
-                    </a>
-                 </div>
-                 <div class="col">
-                    <a href="https://1001repas.candidater.fr/" target="_blank">
-                            <img src="<?php echo(get_template_directory_uri() . '/assets/logo/1001etrepas.png') ?>" class="img-fluid" alt="">
-                    </a>
-                 </div>
-                 <div class="col">
-                    <a href="https://chelles.candidater.fr/" target="_blank">
-                            <img src="<?php echo(get_template_directory_uri() . '/assets/logo/logo-chelles.png') ?>" class="img-fluid" alt="">
-                    </a>
-                 </div>
-            </div>
-            <div class="row text-center block-confiance">
-                <div class="col">
-                    <a href="https://admr76.candidater.fr/" target="_blank">
-                            <img src="<?php echo(get_template_directory_uri() . '/assets/logo/logo-admr.png') ?>" class="img-fluid" alt="">
-                    </a>
-                 </div>
-                <div class="col">
-                    <a href="http://martinetinvest.candidater.fr/" target="_blank">
-                        <img src="<?php echo(get_template_directory_uri() . '/assets/logo/logo-martinet.png') ?>" class="img-fluid" alt="">
-                    </a>
-                 </div>
-                <div class="col">
-                    <a href="https://ville-issy.candidater.fr/" target="_blank">
-                            <img src="<?php echo(get_template_directory_uri() . '/assets/logo/logo-issy3.png') ?>" class="img-fluid" alt="">
-                    </a>
-                 </div>
-            </div>
-    </div>
 
-<p class="un-site">
-    <a class="je-veux-un-site-exemple" href="<?php echo $page_contact; ?>">
-              <button type="button" class="btn btn-success">Demandez un devis </button>
-    </a> 
-</p>
 
 <?php
 
