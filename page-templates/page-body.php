@@ -5,16 +5,17 @@
 <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" rel="stylesheet" />
 <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" rel="stylesheet" />
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="<?php echo(get_template_directory_uri() . './assets/js/main.js') ?>"></script>
 
-<div class="container marketing">
+<div class="container marketing slideanim">
       <h1 class="creer-site-titre"> <span id="apropos"></span>
        <span class="paradisiak-text2"><span class="point-1">P</span>aradisiak,</span>
       </h1> 
-      <h1 class="creer-texte-ligne">
+      <h1 class="creer-texte-ligne slideanim">
         l<span class="point-2">'</span>agence Web des recruteurs<span class="bleu-texte"> !</span>
       </h1>
 </div>
-<div class="container">
+<div class="container slideanim">
             <div class="row featurette">
               <div class="col-md-6">
                 <p class="lead nous-sommes-texte "> Nous sommes spécialisés dans la création de sites internet dans l’univers des Ressources Humaines. <br> Que vous soyez un cabinet de 
@@ -29,7 +30,7 @@
 
 <div class="container etape-3">
     <div class="row align-items-md-stretch espace-demarquez">
-      <div class="col-md-6">
+      <div class="col-md-6 slideanim">
         <div class="h-100 p-5 text-dark bg-light border rounded-3 dark-bordure dark-bordure-vert">
              <div class="row">
                   <div class="col-6 col-sm-3"><h1 class="etape">1<span class="point-1">.</span></h1></div>
@@ -42,7 +43,7 @@
               <h4 class="point-1"> Démarquez-vous dès maintenant !</h4>
         </div>
       </div>
-      <div class="col-md-6">
+      <div class="col-md-6 slideanim">
         <div class="h-100 p-5 text-white bg-dark rounded-3 dark-bordure dark-bordure-jaune">
             <div class="row">
                   <div class="col-2 col-sm-3"><h1 class="etape">2<span class="point-3">.</span></h1></div>
@@ -55,7 +56,7 @@
       </div>
     </div>
     <div class="row align-items-md-stretch">
-       <div class="col-md-6">
+       <div class="col-md-6 slideanim">
         <div class="h-100 p-5 bg-dark border rounded-3 dark-bordure dark-bordure-rose">
             <div class="row">
                   <div class="col-2 col-sm-3"><h1 class="etape">3<span class="point-2">.</span></h1></div>
@@ -67,7 +68,7 @@
              <h4 class="point-2">Boostez votre notoriété !</h4>        
         </div>
       </div> 
-      <div class="col-md-6">
+      <div class="col-md-6 slideanim">
         <div class="h-100 p-5 text-dark bg-light border  rounded-3 dark-bordure dark-bordure-orange">
             <div class="row">
                       <div class="col-2 col-sm-3"><h1 class="etape">4<span class="point-4">.</span></h1></div>
@@ -80,7 +81,7 @@
   </div>
 </div>
 
-<div class="container text-center"><br>
+<div class="container text-center slideanim"><br>
     <a class="devis-pensez" href="<?php echo $page_contact; ?>">
                       <button type="button" class="btn btn-success">Demandez un devis </button>
     </a> 
@@ -89,14 +90,14 @@
 
   <!-- Blocs exemples de site -->
  
-<div class="container back-exemple"><span id="exemples"></span>
+<div class="container back-exemple slideanim"><span id="exemples"></span>
   <hr class="featurette-divider">
         <h2 class="exemple1">Exemples de sites carrière</h2>
         <p class="lead spealise1">Découvrez tous nos sites carrières conçus par <span class="texte-vert">Paradisiak!</span></p>  
 </div>
 
 
-<div class="container-xxl">
+<div class="container-xxl slideanim">
     <div class="owl-carousel owl-theme">
             <div class="item first prev hovereffect">
                       <img src="<?php echo(get_template_directory_uri() . '/assets/portfolio/Dmr_Home.png') ?>" class="img-fluid" alt="Compiene">
@@ -129,7 +130,7 @@
 
 <h2 class="texte-confiance">Ils nous font confiance !</h2>
             
-            <div class="container bloc-nos-clients">
+            <div class="container bloc-nos-clients slideanim">
                     <div class="row">
                         <div class="col border rounded-2 partenaire">
                             <a href="https://recrutement.intersport.fr/" target="_blank" title="Visiter le site carrière">
@@ -179,7 +180,7 @@
 
   <!-- Dernier block accueil -->
 
-<div class="container-fluid text-center">
+<div class="container-fluid text-center slideanim">
         <div class="row" >
                   <h2 class="featurette-heading pensez"> <span class="point-1">C</span>onfiez votre site carrière à nos experts <span class="point-1">RH</span> !</h2> 
                    <a class="devis-pensez" href="<?php echo $page_contact; ?>">
@@ -187,3 +188,4 @@
                   </a>     
         </div>
 </div>
+

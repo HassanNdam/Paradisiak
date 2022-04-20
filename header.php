@@ -72,7 +72,7 @@
 	    </a>
   </nav>
 
- <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-dark ">
+ <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-dark">
     <main>
        <div class="col-md-5  header-text"> <!--p-lg-5 mx-auto my-5-->
 
