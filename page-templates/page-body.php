@@ -98,7 +98,7 @@
 
 
 
-<div class="container-xxl slideanim">
+<div class="container-xxl">
     <div class="owl-carousel owl-theme">
             <div class="item first prev hovereffect">
                       <img src="<?php echo(get_template_directory_uri() . '/assets/portfolio/Dmr_Home.png') ?>" class="img-fluid" alt="Compiene">
