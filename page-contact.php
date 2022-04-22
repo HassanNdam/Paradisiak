@@ -24,7 +24,7 @@ Page contact Paradisiak
 <body>
 
 
-<header class="site-header text-titre-header">
+<header class="site-header text-titre-header ">
   <nav class="navbar navbar-expand-md container d-flex flex-column flex-md-row justify-content-between">
       <a class="py-1 " href="<?php echo get_site_url();?>" aria-label="Product" style="margin-Left:-47px">
             <img src="<?php echo (get_template_directory_uri(). '/assets/logo/logo-large.png');?>"  alt="" height="65" width="200"> 
@@ -43,7 +43,7 @@ Page contact Paradisiak
       <span class="point-3">C</span>ontact
       </a>
       <a href="tel:+0145260873">
-        <button class="btn btn-success"><i class="fa fa-phone"></i> 01 45 26 08 73</button>
+        <button class="btn btn-success text-white"><i class="fa fa-phone"></i> 01 45 26 08 73</button>
 	    </a>
   </nav>
 

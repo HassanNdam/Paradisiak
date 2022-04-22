@@ -83,7 +83,7 @@
 
 <div class="container text-center slideanim"><br>
     <a class="devis-pensez" href="<?php echo $page_contact; ?>">
-                      <button type="button" class="btn btn-success">Demandez un devis </button>
+                      <button type="button" class="btn btn-success text-white">Demandez un devis </button>
     </a> 
 </div>
 
@@ -184,7 +184,7 @@
         <div class="row" >
                   <h2 class="featurette-heading pensez"> <span class="point-1">C</span>onfiez votre site carrière à nos experts <span class="point-1">RH</span> !</h2> 
                    <a class="devis-pensez" href="<?php echo $page_contact; ?>">
-                      <button type="button" class="btn btn-success btn-lg">Demandez un devis </button>
+                      <button type="button" class="btn btn-success btn-lg text-white">Demandez un devis </button>
                   </a>     
         </div>
 </div>

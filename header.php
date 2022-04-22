@@ -68,7 +68,7 @@
       <span class="point-3">C</span>ontact
       </a>
       <a href="tel:+0145260873">
-        <button class="btn btn-success"><i class="fa fa-phone"></i> 01 45 26 08 73</button>
+        <button class="btn btn-success text-white"><i class="fa fa-phone"></i> 01 45 26 08 73</button>
 	    </a>
   </nav>
 
@@ -80,7 +80,7 @@
           <div class="">
           <br>
           <p class="lead fw-normal">Attirez les meilleurs talents et faites exploser <br>votre référencement !</p>
-            <a href="<?php echo $page_contact; ?>"><button type="button" class="btn btn-success btn-lg">Demandez un devis</button>
+            <a href="<?php echo $page_contact; ?>"><button type="button" class="btn btn-success btn-lg text-white">Demandez un devis</button>
           </a>
           </div>
         </div>
