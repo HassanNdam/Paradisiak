@@ -1,5 +1,5 @@
 
-<img src="<?php echo (get_template_directory_uri(). './assets/img/test.png');?>" class="img-fluid" alt="..." width="100%" height="10%">
+
 <footer>
   <div class="row">
     <div class="col-6 col-md">

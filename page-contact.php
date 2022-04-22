@@ -36,7 +36,7 @@ Page contact Paradisiak
       <a class="d-none d-md-inline-block exemples" href="<?php echo get_site_url(). '#exemples';?>">
       <span class="point-2">N</span>os réalisations
       </a>
-      <a class="d-none d-md-inline-block blog" href="<?php echo $page_blog; ?>">
+      <a class="d-none d-md-inline-block blog" href="#">
       <span class="point-1">N</span>otre blog
       </a>
       <a class="d-none d-md-inline-block contact" href="<?php echo $page_contact; ?>">
@@ -110,6 +110,6 @@ Page contact Paradisiak
 </div>
 <?php
 
-include("page-templates/page-footer.php");
+get_footer();
 
 ?>

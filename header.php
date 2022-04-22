@@ -60,10 +60,9 @@
       <a class="d-md-inline-block exemples" href="#exemples">
       <span class="point-2">N</span>os réalisations
       </a>
-      <a class="d-md-inline-block blog" href="<?php echo $page_blog; ?>">
+      <a class="d-md-inline-block blog" href="#">
       <span class="point-1">N</span>otre blog
       </a>
-
       <a class="d-md-inline-block contact" href="<?php echo $page_contact; ?>">
       <span class="point-3">C</span>ontact
       </a>
