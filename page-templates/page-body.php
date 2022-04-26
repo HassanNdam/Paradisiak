@@ -11,17 +11,17 @@
       <h1 class="creer-site-titre"> <span id="apropos"></span>
        <span class="paradisiak-text2"><span class="point-1">P</span>aradisiak,</span>
       </h1> 
-      <h1 class="creer-texte-ligne slideanim">
+      <h1 class="creer-texte-ligne">
         l<span class="point-2">'</span>agence Web des recruteurs<span class="bleu-texte"> !</span>
       </h1>
 </div>
-<div class="container slideanim">
+<div class="container">
             <div class="row featurette">
               <div class="col-md-6">
                 <p class="lead nous-sommes-texte "> Nous sommes spécialisés dans la création de sites internet dans l’univers des Ressources Humaines. <br> Que vous soyez un cabinet de 
                 recrutement ou une entreprise qui souhaite dynamiser sa communication RH ou sa politique de recrutement nous avons la solution !</p>
               </div>
-              <div class="col-md-6">
+              <div class="col-md-6 slideanim">
                 <img src="<?php echo (get_template_directory_uri(). './assets/img/Colonnetest.png');?>" class="img-fluid" alt="..." width="100%" height="100%">
               </div>
             </div>
@@ -35,7 +35,7 @@
              <div class="row">
                   <div class="col-6 col-sm-3"><h1 class="etape">1<span class="point-1">.</span></h1></div>
                   <div class="col"><h2 class="espace">Attirez les meilleurs talents</h2></div>
-            </div>
+             </div>
           <p>
               Premier vecteur entre votre entreprise et vos candidats, un site carrière « sur mesure » est un excellent moyen d'aider vos futurs collaborateurs à mieux vous connaître.
               Bien réalisé et personnalisé, il saura mettre en avant votre marque employeur et attirer  les talents dont les valeurs et les ambitions qui correspondent à votre image .
@@ -157,22 +157,22 @@
                          </div>
                     </div>
                     <div class="row block-confiance">
-                         <div class="col border rounded-2 partenaire">
+                         <div class="col border rounded-2 partenaire partenaire-div">
                             <a href="https://recrutement.agglo-compiegne.fr/" target="_blank" title="Visiter le site carrière">
                                     <img src="<?php echo(get_template_directory_uri() . '/assets/logo/mairi.png') ?>" class="img-fluid" alt="">
                             </a>
                          </div>
-                         <div class="col border rounded-2 partenaire">
+                         <div class="col border rounded-2 partenaire partenaire-div">
                             <a href="https://1001repas.candidater.fr/" target="_blank" title="Visiter le site carrière">
                                     <img src="<?php echo(get_template_directory_uri() . '/assets/logo/1001etrepas.png') ?>" class="img-fluid" alt="">
                             </a>
                          </div>
-                         <div class="col border rounded-2 partenaire">
+                         <div class="col border rounded-2 partenaire partenaire-div">
                             <a href="https://chelles.candidater.fr/" target="_blank" title="Visiter le site carrière">
                                     <img src="<?php echo(get_template_directory_uri() . '/assets/logo/logo-chelles.png') ?>" class="img-fluid" alt="">
                             </a>
                          </div>
-                         <div class="col border rounded-2 partenaire">
+                         <div class="col border rounded-2 partenaire partenaire-div">
                             <a href="http://martinetinvest.candidater.fr/" target="_blank" title="Visiter le site carrière">
                                 <img src="<?php echo(get_template_directory_uri() . '/assets/logo/logo-martinet.png') ?>" class="img-fluid" alt="">
                             </a>

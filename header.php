@@ -73,13 +73,13 @@
 
  <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-dark">
     <main>
-       <div class="col-md-5  header-text"> <!--p-lg-5 mx-auto my-5-->
+       <div class="col-md-5  header-text">
 
           <h1 class="site-carriere"> Votre site carrière <strong>sur-mesure</strong> </h1>
           <div class="">
           <br>
           <p class="lead fw-normal">Attirez les meilleurs talents et faites exploser <br>votre référencement !</p>
-            <a href="<?php echo $page_contact; ?>"><button type="button" class="btn btn-success btn-lg text-white">Demandez un devis</button>
+            <a href="<?php echo $page_contact; ?>"><button type="button" class="btn btn-success btn-lg text-white hover-vert" >Demandez un devis</button>
           </a>
           </div>
         </div>
