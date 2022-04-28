@@ -11,7 +11,7 @@
       <h5>Bureaux</h5>
       <ul class="list-unstyled text-small">
         <p>Paradisiak<br>
-					58 rue de l'arcade<br>
+        10 rue du Colisée<br>
 					75008 Paris</p>
       </ul>
     </div>
