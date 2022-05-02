@@ -72,7 +72,7 @@ Page contact Paradisiak
 
       <div class="col-sm-4 text-center rounded-1 left-contact-block" >
         <div class="col">
-          <img src="<?php echo (get_template_directory_uri(). '/assets/icone/FavIcone1.png');?>"  alt="" width="33%" height="10%"> 
+          <img src="<?php echo (get_template_directory_uri(). '/assets/icone/favicone.png');?>"  alt="" width="33%" height="10%"> 
         </div>
         <div class="col">
           <i class="fa fa-map-marker" aria-hidden="true"> </i> 
@@ -106,8 +106,9 @@ Page contact Paradisiak
 </div>
 
 <div>
-		<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10496.25450566!2d2.3299204!3d48.8760636!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x67586b81447b926a!2sIntuition%20Software%20-%20Logiciel%20de%20Recrutement!5e0!3m2!1sfr!2sfr!4v1593613302255!5m2!1sfr!2sfr" width="100%" height="250" frameborder="0"  allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>			
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.353861147375!2d2.305908114891088!3d48.87053040780715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fc44426d0a3%3A0x4dd46a14608f8c25!2s10%20Rue%20du%20Colis%C3%A9e%2C%2075008%20Paris!5e0!3m2!1sfr!2sfr!4v1651513310444!5m2!1sfr!2sfr" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
+
 <?php
 
 get_footer();
