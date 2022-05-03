@@ -77,7 +77,8 @@ Page contact Paradisiak
         <div class="col">
           <i class="fa fa-map-marker" aria-hidden="true"> </i> 
           <span class="point-1"><strong> Paradisiak </strong></span>
-            <br> 58 rue de l'arcade <br>75008 Paris
+            <br> 10 rue du Colisée
+            <br>75008 Paris
         </div>
         <div>
           <i class="fa fa-envelope-o" aria-hidden="true"></i> 
