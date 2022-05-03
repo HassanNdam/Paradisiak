@@ -127,7 +127,7 @@
 
 <h2 class="texte-confiance">Ils nous font confiance !</h2>
             
-            <div class="container bloc-nos-clients slideanim">
+            <div class="container bloc-nos-clients slideanim text-center">
                     <div class="row">
                         <div class="col border rounded-2 partenaire">
                             <a href="https://recrutement.intersport.fr/" target="_blank" title="Visiter le site carrière">
@@ -151,22 +151,22 @@
                          </div>
                     </div>
                     <div class="row block-confiance">
-                         <div class="col border rounded-2 partenaire partenaire-div">
+                         <div class="col border rounded-2 partenaire">
                             <a href="https://recrutement.agglo-compiegne.fr/" target="_blank" title="Visiter le site carrière">
                                     <img src="<?php echo(get_template_directory_uri() . '/assets/logo/mairi.png') ?>" class="img-fluid" alt="">
                             </a>
                          </div>
-                         <div class="col border rounded-2 partenaire partenaire-div">
+                         <div class="col border rounded-2 partenaire">
                             <a href="https://1001repas.candidater.fr/" target="_blank" title="Visiter le site carrière">
                                     <img src="<?php echo(get_template_directory_uri() . '/assets/logo/1001etrepas.png') ?>" class="img-fluid" alt="">
                             </a>
                          </div>
-                         <div class="col border rounded-2 partenaire partenaire-div">
+                         <div class="col border rounded-2 partenaire">
                             <a href="https://chelles.candidater.fr/" target="_blank" title="Visiter le site carrière">
                                     <img src="<?php echo(get_template_directory_uri() . '/assets/logo/logo-chelles.png') ?>" class="img-fluid" alt="">
                             </a>
                          </div>
-                         <div class="col border rounded-2 partenaire partenaire-div">
+                         <div class="col border rounded-2 partenaire">
                             <a href="http://martinetinvest.candidater.fr/" target="_blank" title="Visiter le site carrière">
                                 <img src="<?php echo(get_template_directory_uri() . '/assets/logo/logo-martinet.png') ?>" class="img-fluid" alt="">
                             </a>
