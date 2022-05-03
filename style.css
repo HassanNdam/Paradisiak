@@ -124,15 +124,14 @@ p{
  
 
 .site-carriere{
-    font-size: 30px;
+    font-size: 36px;
     text-align: justify;
     animation-duration: 2s;
-
   }
 
   .header-text{
     opacity: 1;
-    text-align: start;
+    margin-top: 35px;
   }
 
   .col .lead{
@@ -523,7 +522,7 @@ color:#f5f5f5
     border: none;
     padding: 1px 20px !important;
     font: inherit;
-    font-size: 30px !important
+    font-size: 40px !important
 }
 
 .owl-carousel .owl-nav button.owl-next:hover,
