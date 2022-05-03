@@ -9,7 +9,7 @@
     <title><?php echo bloginfo("name");?></title>
     <!-- <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri ?>/style.css?ver=<?php echo time() ?>"> -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="icon" href="<?php echo(get_template_directory_uri() . '/assets/icone/FavIcone1.png') ?>" sizes="16x16 32x32 48x48 64x64" >
+    <link rel="icon" href="<?php echo(get_template_directory_uri() . '/assets/icone/favicone.png') ?>" sizes="16x16 32x32 48x48 64x64" >
     
 
   <?php wp_head();
@@ -51,7 +51,7 @@
 
 <header class="site-header"> 
   <nav class="navbar navbar-default navbar-expand-md container d-flex flex-column flex-md-row justify-content-between">
-      <a class="py-1" href="<?php echo get_site_url();?>" aria-label="Product" style="margin-Left:-47px">
+      <a class="py-1" href="<?php echo get_site_url();?>" aria-label="Product" style="margin-Left:-60px">
             <img src="<?php echo (get_template_directory_uri(). '/assets/logo/logo-large.png');?>"  alt="" height="65" width="200"> 
       </a>
       <a class="d-md-inline-block apropos" href="#apropos">
@@ -71,32 +71,14 @@
 	    </a>
   </nav>
 
- <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-dark">
-    <main>
-       <div class="col-md-5  header-text">
-
+ <div class="position-relative overflow-hidden m-4 bg-dark">
+       <div class="col-md-5 header-text">
           <h1 class="site-carriere"> Votre site carrière <strong>sur-mesure</strong> </h1>
-          <div class="">
           <br>
           <p class="lead fw-normal">Attirez les meilleurs talents et faites exploser <br>votre référencement !</p>
             <a href="<?php echo $page_contact; ?>"><button type="button" class="btn btn-success btn-lg text-white hover-vert" >Demandez un devis</button>
           </a>
-          </div>
         </div>
-      </div>
   </div>
 
 </header>
-
-
-
-
-
-
-
-
-
-
-
-
-
