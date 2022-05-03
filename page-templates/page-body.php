@@ -141,12 +141,12 @@
                         </div>
                          <div class="col border rounded-2 partenaire">
                             <a href="https://soredes.candidater.fr/" target="_blank" title="Visiter le site carrière">
-                             <img src="<?php echo(get_template_directory_uri() . '/assets/logo/logo-soredes.png') ?>" class="img-fluid" alt="">
+                             <img src="<?php echo(get_template_directory_uri() . '/assets/logo/soredes.png') ?>" class="img-fluid" alt="">
                             </a>
                         </div>
                         <div class="col border rounded-2 partenaire">
                             <a href="https://admr76.candidater.fr/" target="_blank" title="Visiter le site carrière">
-                                    <img src="<?php echo(get_template_directory_uri() . '/assets/logo/logo-admr.png') ?>" class="img-fluid" alt="">
+                                    <img src="<?php echo(get_template_directory_uri() . '/assets/logo/admr.jpg') ?>" class="img-fluid" alt="">
                             </a>
                          </div>
                     </div>
