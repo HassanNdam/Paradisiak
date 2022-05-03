@@ -23,23 +23,21 @@ Page contact Paradisiak
   </head>
 <body>
 
-
-<header class="site-header text-titre-header ">
-  <nav class="navbar navbar-expand-md container d-flex flex-column flex-md-row justify-content-between">
-      <a class="py-1 " href="<?php echo get_site_url();?>" aria-label="Product" style="margin-Left:-47px">
+<header class="site-header text-titre-header">
+  <nav class="navbar navbar-default navbar-expand-md container d-flex flex-column flex-md-row justify-content-between">
+      <a class="py-1" href="<?php echo get_site_url();?>" aria-label="Product" style="margin-Left:-47px">
             <img src="<?php echo (get_template_directory_uri(). '/assets/logo/logo-large.png');?>"  alt="" height="65" width="200"> 
       </a>
-
-      <a class="d-none d-md-inline-block apropos" href="<?php echo get_site_url()."#apropos";?>">
+      <a class="d-md-inline-block apropos" href="<?php echo get_site_url()."#apropos";?>">
       <span class="point-4">À</span> propos de nous
       </a>
-      <a class="d-none d-md-inline-block exemples" href="<?php echo get_site_url(). '#exemples';?>">
+      <a class="d-md-inline-block exemples" href="<?php echo get_site_url(). '#exemples';?>">
       <span class="point-2">N</span>os réalisations
       </a>
-      <a class="d-none d-md-inline-block blog" href="#">
+      <a class="d-md-inline-block blog" href="#">
       <span class="point-1">N</span>otre blog
       </a>
-      <a class="d-none d-md-inline-block contact" href="<?php echo $page_contact; ?>">
+      <a class="d-md-inline-block contact" href="<?php echo $page_contact; ?>">
       <span class="point-3">C</span>ontact
       </a>
       <a href="tel:+0145260873">
@@ -59,8 +57,8 @@ Page contact Paradisiak
   </div>
 </header>
 
-<h2 class="devis-titre-contact">Demandez un devis pour votre site carrière !</h2>
 
+<h2 class="devis-titre-contact">Demandez un devis pour votre site carrière !</h2>
 
 <div class="container block-contact border rounded-2">
   <div class="row">
