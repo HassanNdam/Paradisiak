@@ -3,7 +3,6 @@
 <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" rel="stylesheet" />
 <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" rel="stylesheet" />
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-<script src="<?php echo(get_template_directory_uri() . '/assets/js/main.js') ?>" defer></script>
 
 <div class="container marketing ">
       <h1 class="creer-site-titre"> <span id="apropos"></span>
