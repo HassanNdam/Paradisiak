@@ -71,8 +71,8 @@
 	    </a>
   </nav>
 
- <div class="position-relative overflow-hidden m-4 bg-dark">
-       <div class="col-md-5 header-text">
+  <div class="position-relative overflow-hidden m-4 bg-dark">
+        <div class="col-md-5 header-text">
           <h1 class="site-carriere"> Votre site carrière <strong>sur-mesure</strong> </h1>
           <br>
           <p class="lead fw-normal">Attirez les meilleurs talents et faites exploser <br>votre référencement !</p>
