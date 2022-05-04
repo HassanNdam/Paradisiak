@@ -767,7 +767,14 @@ transform: rotate(0) scale(1);
 
 /* Page Blog */
 
-
+.titre-blog{
+  font-size:  70px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 300;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
 
 
 
