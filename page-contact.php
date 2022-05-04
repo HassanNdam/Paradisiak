@@ -46,7 +46,6 @@ Page contact Paradisiak
   </nav>
 
  <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center background-header-contact">
-    <main>
        <div class="col"> 
           <h1 class="site-carriere titre-header-page"> Un besoin de site carrière ? </h1>
           <div class="">
