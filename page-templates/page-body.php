@@ -18,7 +18,7 @@
                 <p class="lead nous-sommes-texte "> Nous sommes spécialisés dans la création de sites internet dans l’univers des Ressources Humaines. <br> Que vous soyez un cabinet de 
                 recrutement ou une entreprise qui souhaite dynamiser sa communication RH ou sa politique de recrutement nous avons la solution !</p>
               </div>
-              <div class="col-md-6 slideanim">
+              <div class="col-md-6">
                 <img src="<?php echo (get_template_directory_uri(). '/assets/img/paradisiak.png');?>" class="img-fluid" alt="..." width="100%" height="100%">
               </div>
             </div>
@@ -27,10 +27,10 @@
 
 <div class="container etape-3">
     <div class="row align-items-md-stretch espace-demarquez">
-      <div class="col-md-6 slideanim">
+      <div class="col-md-6">
         <div class="h-100 p-5 text-dark bg-light border rounded-3">
              <div class="row">
-                  <div class="col-6 col-sm-3"><h1 class="etape">1<span class="point-1">.</span></h1></div>
+                  <div class="col-6 col-sm-3 slideanim"><h1 class="etape">1<span class="point-1">.</span></h1></div>
                   <div class="col"><h2 class="espace">Attirez les meilleurs talents</h2></div>
              </div>
           <p>
@@ -40,10 +40,10 @@
               <h4 class="point-1"> Démarquez-vous dès maintenant !</h4>
         </div>
       </div>
-      <div class="col-md-6 slideanim">
+      <div class="col-md-6">
         <div class="h-100 p-5 text-white bg-dark rounded-3">
             <div class="row">
-                  <div class="col-2 col-sm-3"><h1 class="etape">2<span class="point-3">.</span></h1></div>
+                  <div class="col-2 col-sm-3 slideanim"><h1 class="etape">2<span class="point-3">.</span></h1></div>
                   <div class="col"><h2 class="espace">Transformez vos visiteurs en candidats</h2></div>
             </div>
           <p>Optez pour une page emploi intuitive, en simplifiant l’action de candidater (questionnaires, formulaires,  filtres, <br>confirmations de réception
@@ -53,10 +53,10 @@
       </div>
     </div>
     <div class="row align-items-md-stretch">
-       <div class="col-md-6 slideanim">
+       <div class="col-md-6">
         <div class="h-100 p-5 bg-dark border rounded-3">
             <div class="row">
-                  <div class="col-2 col-sm-3"><h1 class="etape">3<span class="point-2">.</span></h1></div>
+                  <div class="col-2 col-sm-3 slideanim"><h1 class="etape">3<span class="point-2">.</span></h1></div>
                   <div class="col"><h2 class="espace">Optimisez le référencement naturel</h2></div>     
             </div>  
             <p>Les solutions de Paradisiak sont pensées pour être très efficaces dans la création de l’afflux de candidats.
@@ -65,10 +65,10 @@
              <h4 class="point-2 espace-3-4">Boostez votre notoriété !</h4>
         </div>
       </div> 
-      <div class="col-md-6 slideanim">
+      <div class="col-md-6">
         <div class="h-100 p-5 text-dark bg-light border rounded-3">
             <div class="row">
-                      <div class="col-2 col-sm-3"><h1 class="etape">4<span class="point-4">.</span></h1></div>
+                      <div class="col-2 col-sm-3 slideanim"><h1 class="etape">4<span class="point-4">.</span></h1></div>
                       <div class="col"><h2 class="espace">Connectez-vous à votre logiciel de recrutement</h2></div>     
             </div>
             <p>Créez un poste, diffusez-le en 1 clic sur votre site carrière et retrouver tous vos candidats dans votre logiciel de recrutement.</p>
@@ -78,7 +78,7 @@
   </div>
 </div>
 
-<div class="container text-center slideanim"><br>
+<div class="container text-center"><br>
     <a class="devis-pensez" href="<?php echo $page_contact; ?>">
                       <button type="button" class="btn btn-success text-white">Demandez un devis </button>
     </a> 
@@ -86,9 +86,9 @@
 
   <!-- Blocs exemples de site -->
  
-<div class="container back-exemple slideanim"><span id="exemples"></span>
+<div class="container back-exemple "><span id="exemples"></span>
   <hr class="featurette-divider">
-        <h2 class="exemple1">Exemples de sites carrière</h2>
+        <h2 class="exemple1 slideanim">Exemples de sites carrière</h2>
         <p class="lead spealise1">Découvrez quelques sites carrières conçus par  <span class="texte-vert">Paradisiak !</span></p>  
 </div>
 
@@ -175,9 +175,9 @@
 
   <!--Dernier block accueil-->
 
-<div class="container-fluid text-center slideanim">
+<div class="container-fluid text-center">
         <div class="row" >
-                   <h2 class="featurette-heading pensez"> <span class="point-1">C</span>onfiez votre site carrière à nos experts <span class="point-1">RH</span> !</h2> 
+                   <h2 class="featurette-heading pensez slideanim"> <span class="point-1">C</span>onfiez votre site carrière à nos experts <span class="point-1">RH</span> !</h2> 
                    <a class="devis-pensez" href="<?php echo $page_contact; ?>">
                       <button type="button" class="btn btn-success btn-lg text-white">Demandez un devis </button>
                    </a>     
