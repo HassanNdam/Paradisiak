@@ -9,7 +9,7 @@
     <title><?php echo bloginfo("name");?></title>
     <!-- <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri ?>/style.css?ver=<?php echo time() ?>"> -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="icon" href="<?php echo(get_template_directory_uri() . '/assets/icone/favicone.png') ?>" sizes="16x16 32x32 48x48 64x64" >
+    <link rel="icon" href="<?php echo(get_template_directory_uri() . '/assets/icone/favicone.png') ?>" sizes="16x16 32x32 48x48 64x64">
     
 
   <?php wp_head();
@@ -60,7 +60,7 @@
       <a class="d-md-inline-block exemples" href="#exemples">
       <span class="point-2">N</span>os réalisations
       </a>
-      <a class="d-md-inline-block blog" href="#">
+      <a class="d-md-inline-block blog" href="<?php echo $page_blog; ?>">
       <span class="point-1">N</span>otre blog
       </a>
       <a class="d-md-inline-block contact" href="<?php echo $page_contact; ?>">
