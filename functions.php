@@ -14,10 +14,7 @@ wp_enqueue_style('ms-bootstrap',"https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/di
 wp_enqueue_style('ms-font',"https://use.fontawesome.com/releases/v5.7.0/css/all.css", array(), 
 '5.7.0', 'All');
 
-
 }
 add_action('wp_enqueue_scripts', 'paradisiak_style');
-
-
 
 ?>

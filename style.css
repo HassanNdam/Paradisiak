@@ -768,15 +768,53 @@ transform: rotate(0) scale(1);
 /* Page Blog */
 
 .titre-blog{
-  font-size:  70px;
+  font-size:  57px;
   text-transform: uppercase;
   text-align: center;
   font-weight: 300;
-  margin-top: 40px;
-  margin-bottom: 60px;
+  margin-top: 50px;
+  margin-bottom: 90px;
 }
 
+.idee-site{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 
+.box-pourquoi{
+  box-shadow:0 12px 20px -10px rgb(0 0 0 / 30%);
+}
+
+.position-sticky{
+  box-shadow:3px 12px 20px -10px rgb(0 0 0 / 30%);
+}
+
+.pourquoi-site-blog{
+  margin-top: 50px;
+  font-size: 23px;
+  text-align: justify;
+}
+
+.stretched-link{
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.stretched-link:hover{
+  color: #46CBB1 ;
+  text-decoration: underline;
+
+}
+
+.blog-header{
+  background-image:  url(assets/img/footer_image.png);
+  background-color: #000000;
+  background-size: cover;
+  color: white;
+  height: 205px;
+  width: 100% ;
+}
 
 /* Page Contact */
 
