@@ -18,7 +18,7 @@
   </head>
 
 <header class="site-header text-titre-header"> 
-  <nav class="navbar navbar-expand-md container d-flex flex-column flex-md-row justify-content-between">
+  <nav class="navbar navbar-expand-md container d-flex flex-column container flex-md-row justify-content-between">
       <a class="py-1 " href="<?php echo get_site_url();?>" aria-label="Product" style="margin-Left:-47px">
             <img src="<?php echo (get_template_directory_uri(). '/assets/logo/logo-large.png');?>"  alt="" height="65" width="200"> 
       </a>

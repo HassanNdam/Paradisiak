@@ -22,7 +22,7 @@
 
 <header class="site-header"> 
   <nav class="navbar navbar-default navbar-expand-md container d-flex flex-column flex-md-row justify-content-between">
-      <a class="py-1 text-left" href="<?php echo get_site_url();?>" aria-label="Product" style="margin-Left:-60px">
+      <a class="py-1 text-left" href="<?php echo get_site_url();?>" aria-label="Product">
             <img src="<?php echo (get_template_directory_uri(). '/assets/logo/logo-large.png');?>"  alt="" height="65" width="200"> 
       </a>
       <a class="d-md-inline-block apropos" href="<?php echo get_site_url()."#apropos";?>">

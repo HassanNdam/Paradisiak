@@ -93,7 +93,7 @@
 </div>
 
 
-<div class="container-xxl">
+<div class="row">
     <div class="owl-carousel owl-theme">
             <div class="item first prev hovereffect">
                       <img src="<?php echo(get_template_directory_uri() . '/assets/portfolio/dmr_home.png') ?>" class="img-fluid" alt="Compiene">
@@ -124,7 +124,7 @@
       </div>
 </div>
 <h2 class="texte-confiance">Ils nous font confiance !</h2>
-            <!-- <div class="container bloc-nos-clients slideanim text-center">
+            <div class="container bloc-nos-clients slideanim text-center">
                     <div class="row">
                         <div class="col border rounded-2 partenaire">
                             <a href="https://recrutement.intersport.fr/" target="_blank" title="Visiter le site carrière">
@@ -169,7 +169,7 @@
                             </a>
                          </div>
                     </div>
-            </div> -->
+            </div>
 
   <!--Dernier block accueil-->
 
