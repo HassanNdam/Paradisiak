@@ -124,8 +124,7 @@
       </div>
 </div>
 <h2 class="texte-confiance">Ils nous font confiance !</h2>
-            
-            <div class="container bloc-nos-clients slideanim text-center">
+            <!-- <div class="container bloc-nos-clients slideanim text-center">
                     <div class="row">
                         <div class="col border rounded-2 partenaire">
                             <a href="https://recrutement.intersport.fr/" target="_blank" title="Visiter le site carrière">
@@ -170,8 +169,7 @@
                             </a>
                          </div>
                     </div>
-            </div>
-
+            </div> -->
 
   <!--Dernier block accueil-->
 
