@@ -37,7 +37,6 @@ body{
  font-size: 16px;
  line-height: 1.6;
  color: black;
- width: 100%;
  background-color: white;
  background-repeat: no-repeat
 }
@@ -135,6 +134,26 @@ p{
     margin-top: 78px;
     text-align: justify;
   }
+
+
+  /* Media queries header */
+
+
+  @media screen and (min-width: 768px) and (max-width: 1200px) {
+    .site-header a {
+      font-size: 10px;
+    }
+    .display-btn-top{
+      display: none;
+    }
+  }
+
+  @media screen and (max-width:768px) {
+    .site-header a .btn-success{
+      margin-top: 20px;
+    }   
+  }
+
 
   .col .lead{
     margin-top: 20px;
@@ -372,6 +391,8 @@ p{
     margin-bottom: 150px;
   }
 
+
+/* Media query */
 
 
 

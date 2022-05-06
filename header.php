@@ -44,7 +44,7 @@
       <span class="point-3">C</span>ontact
       </a>
       <a href="tel:+0145260873">
-        <button class="btn btn-success text-white"><i class="fa fa-phone"></i> 01 45 26 08 73</button>
+        <button class="btn btn-success text-white display-btn-top"><i class="fa fa-phone"></i> 01 45 26 08 73</button>
 	    </a>
   </nav>
   <div class="position-relative overflow-hidden bg-dark ">
@@ -52,7 +52,7 @@
           <h1 class="site-carriere "> Votre site carrière <strong>sur-mesure</strong> </h1>
           <br>
           <p class="lead fw-normal">Attirez les meilleurs talents et faites exploser <br>votre référencement !</p>
-            <a href="<?php echo $page_contact; ?>"><button type="button" class="btn btn-success text-white hover-vert" >Demandez un devis</button>
+            <a href="<?php echo $page_contact; ?>"><button type="button" class="btn btn-success text-white hover-vert " >Demandez un devis</button>
           </a>
         </div>
  </div>
