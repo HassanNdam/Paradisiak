@@ -25,7 +25,7 @@
       <h5>Nous-suivre : </h5>
       <!-- <ul class="list-unstyled text-small"> -->
       <div class="col footer-picto">
-            <a href="https://www.linkedin.com/company/intuition-software/" target="_blank">
+            <a href="#" target="_blank">
             <img src="<?php echo (get_template_directory_uri(). '/assets/icone/linkedin.png');?>" class="img-fluid" alt="" width="30" >
             </a>
             <a href="#">

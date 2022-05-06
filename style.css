@@ -124,7 +124,7 @@ p{
  
 
 .site-carriere{
-    font-size: 36px;
+    font-size: 1.8vw;
     text-align: justify;
     animation-duration: 2s;
   }
@@ -162,6 +162,7 @@ p{
   .lead{
     margin-bottom: 30px;
     text-align:  justify;
+    font-size: 1.2vw;
   }
 
   .nous-sommes-texte{
@@ -243,17 +244,18 @@ p{
   /* Corps 1 Developpez votre site internet  */
   
   .creer-site-titre {
-    margin: 0 0 40px;
+    margin-bottom: 40px;
+    margin-top: 20px;
     color: #000000;
     letter-spacing: 1rem;
-    font-size: 70px;
+    font-size: 5vw;
     --reveal-delay: 0.1s;
     text-transform: uppercase;
     text-align: center;
   }
 
   .creer-texte-ligne{
-    font-size:  60px;
+    font-size:  4vw;
     text-transform: uppercase;
     text-align: center;
     font-weight: 300;
@@ -388,11 +390,16 @@ p{
   } 
 
   .espace-3-4{
-    margin-bottom: 150px;
+    margin-bottom: 120px;
   }
 
 
-/* Media query */
+/* Media query bloc 1 */
+
+/* .img-droite-bloc1{
+  background-color: red;
+} */
+
 
 
 

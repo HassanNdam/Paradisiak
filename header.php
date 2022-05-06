@@ -49,7 +49,7 @@
   </nav>
   <div class="position-relative overflow-hidden bg-dark ">
         <div class="header-text container">
-          <h1 class="site-carriere "> Votre site carrière <strong>sur-mesure</strong> </h1>
+          <h1 class="site-carriere"> Votre site carrière <strong>sur-mesure</strong> </h1>
           <br>
           <p class="lead fw-normal">Attirez les meilleurs talents et faites exploser <br>votre référencement !</p>
             <a href="<?php echo $page_contact; ?>"><button type="button" class="btn btn-success text-white hover-vert " >Demandez un devis</button>
