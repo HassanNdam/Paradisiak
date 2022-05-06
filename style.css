@@ -745,7 +745,7 @@ a.info:hover{
   border-radius: 4px;
   box-shadow:0 12px 20px -10px rgb(0 0 0 / 30%);
   text-align: center;
-  height: 250px;
+  height: auto;
   max-width: none;
 }
 
@@ -756,7 +756,7 @@ a.info:hover{
   transition: .3s ease-in-out;
   vertical-align: middle;
   border-style: none;
-  height: 100%;
+  height: 80px;
 }
 
 .partenaire :hover{
@@ -764,7 +764,6 @@ a.info:hover{
 -webkit-transform: rotate(0) scale(1);
 transform: rotate(0) scale(1);
 }
-
 
 /* Page Blog */
 
