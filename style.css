@@ -721,15 +721,15 @@ a.info:hover{
   text-align: center;
   color: #000000;
   font-size: 55px;
-  margin-top:70px;
-  margin-bottom: 70px;
+  margin-top:50px;
+  margin-bottom: 80px;
   font-weight: 300;
   text-transform: uppercase;
 }
 
 .bloc-nos-clients{
   margin-bottom: 7rem;
-  width: 900px;
+  max-width: 900px;
 }
 
 .block-confiance{
@@ -745,7 +745,7 @@ a.info:hover{
   border-radius: 4px;
   box-shadow:0 12px 20px -10px rgb(0 0 0 / 30%);
   text-align: center;
-  height: auto;
+  height: 250px;
   max-width: none;
 }
 
@@ -756,7 +756,7 @@ a.info:hover{
   transition: .3s ease-in-out;
   vertical-align: middle;
   border-style: none;
-  height: 80px;
+  height: 100%;
 }
 
 .partenaire :hover{

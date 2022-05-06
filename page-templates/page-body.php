@@ -123,7 +123,9 @@
             </div>
       </div>
 </div>
+
 <h2 class="texte-confiance">Ils nous font confiance !</h2>
+
             <div class="container bloc-nos-clients slideanim text-center">
                     <div class="row">
                         <div class="col border rounded-2 partenaire">
