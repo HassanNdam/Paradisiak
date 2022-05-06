@@ -8,7 +8,7 @@
       <h1 class="creer-site-titre"> <span id="apropos"></span>
        <span class="paradisiak-text2"><span class="point-1">P</span>aradisiak,</span>
       </h1> 
-      <h1 class="creer-texte-ligne slideanim">
+      <h1 class="creer-texte-ligne">
         l<span class="point-2">'</span>agence Web des recruteurs<span class="bleu-texte"> !</span>
       </h1>
 </div>
