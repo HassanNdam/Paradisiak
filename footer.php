@@ -23,7 +23,7 @@
     </div>
     <div class="col-6 col-md">
       <h5>Nous-suivre : </h5>
-      <ul class="list-unstyled text-small">
+      <!-- <ul class="list-unstyled text-small"> -->
       <div class="col footer-picto">
             <a href="https://www.linkedin.com/company/intuition-software/" target="_blank">
             <img src="<?php echo (get_template_directory_uri(). '/assets/icone/linkedin.png');?>" class="img-fluid" alt="" width="30" >
@@ -35,7 +35,7 @@
             <img src="<?php echo (get_template_directory_uri(). '/assets/icone/insta.webp');?>" class="img-fluid" alt="" width="30" >
             </a>
 	   </div>
-       </ul>
+       <!-- </ul> -->
      </div>
     <div class="d-flex justify-content-center py-4 my-4 border-top">
       <p> Copyright © <a class ="coypwrights"href="https://paradisiak.com/" alt="Réalisé par Paradisiak"> Paradisiak</a>  © 2022 Tous droits réservés</p>
