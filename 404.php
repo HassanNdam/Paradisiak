@@ -13,7 +13,7 @@
         <div class="stars">
             <div class="custom-navbar">
                 <div class="brand-logo">
-                    <img src="<?php echo(get_template_directory_uri() . '/assets/icone/FavIcone1.png') ?>" width="40px">
+                    <img src="<?php echo(get_template_directory_uri() . '/assets/icone/favicones.png') ?>" width="40px">
                 </div>
                 <div class="navbar-links">
                     <ul>
@@ -33,7 +33,7 @@
                     <img class="object_moon" src="http://salehriaz.com/404Page/img/moon.svg" width="80px">
                 </div>
                 <div class="box_astronaut">
-                    <img class="object_astronaut" src="<?php echo(get_template_directory_uri() . '/assets/icone/FavIcone1.png') ?>" width="140px">
+                    <img class="object_astronaut" src="<?php echo(get_template_directory_uri() . '/assets/icone/favicone.png') ?>" width="140px">
                 </div>
             </div>
             <div class="glowing_stars">
