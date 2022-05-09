@@ -4,6 +4,11 @@ $page_exemples = get_site_url() . '/exemples/';
 $page_blog = get_site_url() . '/blog/';
 $page_contact = get_site_url() . '/contact/';
 
+function paradisiak_support(){
+    add_theme_support('title-tag'); 
+    add_theme_support('custom-logo');
+    add_theme_support("post-thumbnails");
+}
 
 function paradisiak_style(){
 
