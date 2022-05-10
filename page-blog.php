@@ -23,7 +23,7 @@
 <header class="site-header"> 
   <nav class="navbar navbar-default navbar-expand-md container d-flex flex-column flex-md-row justify-content-between">
       <a class="py-1 text-left" href="<?php echo get_site_url();?>" aria-label="Product">
-        <img src="<?php echo (get_template_directory_uri(). '/assets/logo/logo-large.png');?>"  alt="" height="85" width="265"> 
+        <img src="<?php echo (get_template_directory_uri(). '/assets/logo/logo-large.png');?>"  alt="" height="76" width="211"> 
       </a>
       <a class="d-md-inline-block apropos" href="<?php echo get_site_url()."#apropos";?>">
       <span class="point-4">À</span> propos de nous
@@ -51,50 +51,42 @@
 </div>
 
 <main class="container">
-
-<!-- Blocs de articles ici : 
-
-  <div class="row mb-2">
-    <div class="col-md-6">
-      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-        <div class="col p-4 d-flex flex-column position-static">
-          <strong class="d-inline-block mb-2 text-primary">Catégorie</strong>
-          <h3 class="mb-0">Titre</h3>
-          <div class="mb-1 text-muted">Date publication</div>
-          <p class="card-text mb-auto">Article.......</p>
-          <a href="#" class="stretched-link">Lire la suite</a>
-        </div>
-        <div class="col-auto d-none d-lg-block">
-          <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-
-        </div>
-      </div>
-    </div>
-    <div class="col-md-6">
-      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-        <div class="col p-4 d-flex flex-column position-static">
-          <strong class="d-inline-block mb-2 text-success">Catégorie</strong>
-          <h3 class="mb-0">Titre</h3>
-          <div class="mb-1 text-muted">Date publication</div>
-          <p class="mb-auto">Article.....</p>
-          <a href="#" class="stretched-link">Lire la suite...</a>
-        </div>
-        <div class="col-auto d-none d-lg-block">
-          <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-
-        </div>
-      </div>
-    </div>
-  </div> 
-
--->
-
   <div class="row g-5">
     <div class="col-md-8">
-      <h3 class="pb-4 mb-4 border-bottom">
-         Vous trouverez prochainement ici nos articles de blog Paradisiak !
-      </h3>
-    </div>
+            
+      <?php
+      $args = array(
+          'posts_per_page'   => -1,
+          'offset'           => 0,
+          'orderby'          => 'date',
+          'order'            => 'desc',
+          'post_type'        => 'post',
+
+        );
+      $myposts = get_posts( $args );
+
+        foreach ( $myposts as $post ) : setup_postdata( $post );
+      ?>
+
+        <div class="row mb-2">
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+              <div class="col p-4 d-flex flex-column position-static">
+                <strong class="d-inline-block mb-2 point-2"><?php the_category();?></strong>
+                <h3 class="mb-2"><?php the_title(); ?></h3>
+                <div class="mb-3 text-muted">Publié le <?php the_date(); ?> par <strong><?php the_author();?></strong></div>
+                <p class="card-text mb-auto"><?php the_excerpt(); ?></p>
+                <a href="<?php the_permalink();?>" class="stretched-link">Lire la suite</a>
+              </div>
+              <div class="col-auto d-none d-lg-block">
+                <img class="rounded mx-auto d-block" src="<?php the_post_thumbnail_url('medium'); ?>" alt="image" width="350" height="100%">
+              </div>
+            </div>
+          </div>
+
+
+        <?php endforeach; wp_reset_postdata(); ?>
+
+        </div>
 
     <div class="col-md-4">
       <div class="position-sticky" style="top: 2rem;">
@@ -120,11 +112,9 @@
       </div>
     </div>
   </div>
-
 </main>
-
 <br><br><br>
-<img src="<?php echo (get_template_directory_uri(). '/assets/img/footer_image.png');?>" class="img-fluid" alt="..." width="100%" height="10%">
+  <img src="<?php echo (get_template_directory_uri(). '/assets/img/footer_image.png');?>" class="img-fluid" alt="..." width="100%" height="10%">
 <?php
   get_footer();
 ?>
