@@ -125,7 +125,7 @@ p{
 
 
 .site-carriere{
-    font-size: 3vw;
+    font-size: 2.4vw;
     text-align: justify;
     animation-duration: 2s;
   }
@@ -136,6 +136,9 @@ p{
     text-align: justify;
   }
 
+  .espace-btn-header{
+    margin-top: 13px;
+  }
 
   /* Media queries header */
 
@@ -163,7 +166,7 @@ p{
   .lead{
     margin-bottom: 30px;
     text-align:  justify;
-    font-size: 1.8vw;
+    font-size: 1.4vw;
   }
 
   .nous-sommes-texte{
