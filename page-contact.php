@@ -23,11 +23,10 @@ Page contact Paradisiak
   ?>
   </head>
 <body>
-
 <header class="site-header text-titre-header">
   <nav class="navbar navbar-default navbar-expand-md d-flex container flex-column flex-md-row justify-content-between">
       <a class="py-1" href="<?php echo get_site_url();?>" aria-label="Product" >
-        <img src="<?php echo (get_template_directory_uri(). '/assets/logo/logo-large.png');?>"  alt="" height="85" width="265"> 
+        <img src="<?php echo (get_template_directory_uri(). '/assets/logo/logo-large.png');?>"  alt="" height="76" width="211"> 
       </a>
       <a class="d-md-inline-block apropos" href="<?php echo get_site_url()."#apropos";?>">
       <span class="point-4">À</span> propos de nous
@@ -56,8 +55,6 @@ Page contact Paradisiak
        </div>
   </div>
 </header>
-
-
 <h2 class="devis-titre-contact">Demandez un devis pour votre site carrière !</h2>
 
 <div class="container block-contact border rounded-2">
