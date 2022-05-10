@@ -4,6 +4,16 @@
 <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" rel="stylesheet" />
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
+<div class="position-relative overflow-hidden bg-dark ">
+        <div class="header-text container">
+          <h1 class="site-carriere"> Votre site carrière <strong>sur-mesure</strong> </h1>
+          <br>
+          <p class="lead fw-normal">Attirez les meilleurs talents et faites exploser <br>votre référencement !</p>
+            <a href="<?php echo $page_contact; ?>"><button type="button" class="btn btn-success text-white hover-vert " >Demandez un devis</button>
+          </a>
+        </div>
+</div>
+
 <div class="container marketing ">
       <h1 class="creer-site-titre"> <span id="apropos"></span>
        <span class="paradisiak-text2"><span class="point-1">P</span>aradisiak,</span>
