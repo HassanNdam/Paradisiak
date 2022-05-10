@@ -5,10 +5,13 @@ $page_blog = get_site_url() . '/blog/';
 $page_contact = get_site_url() . '/contact/';
 
 function paradisiak_support(){
+    //Ajout dynamique des ressources
     add_theme_support('title-tag'); 
     add_theme_support('custom-logo');
     add_theme_support("post-thumbnails");
 }
+
+add_action('after_setup_theme','paradisiak_support');
 
 function paradisiak_style(){
 
