@@ -38,7 +38,7 @@ body{
  line-height: 1.6;
  color: black;
  background-color: white;
- background-repeat: no-repeat
+ background-repeat: no-repeat; 
 }
 
 a {
@@ -125,7 +125,7 @@ p{
 
 
 .site-carriere{
-    font-size: 2.4vw;
+    font-size: 2.3vw;
     text-align: justify;
     animation-duration: 2s;
   }
@@ -793,14 +793,14 @@ a.info:hover{
 
 .partenaire :hover{
   opacity: 1;
--webkit-transform: rotate(0) scale(1);
-transform: rotate(0) scale(1);
+  -webkit-transform: rotate(0) scale(1);
+  transform: rotate(0) scale(1);
 }
 
 /* Page Blog */
 
 .titre-blog{
-  font-size:  5vw;
+  font-size:  4vw;
   text-transform: uppercase;
   text-align: center;
   font-weight: 300;
@@ -811,16 +811,17 @@ transform: rotate(0) scale(1);
 .idee-site{
   text-align: center;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .box-pourquoi{
   box-shadow:0 12px 20px -10px rgb(0 0 0 / 30%);
 }
 
-.position-sticky{
+/* .position-sticky{
   box-shadow:3px 12px 20px -10px rgb(0 0 0 / 30%);
-}
+} */
+
 
 .pourquoi-site-blog{
   margin-top: 50px;
@@ -836,6 +837,7 @@ transform: rotate(0) scale(1);
 
 .categorie:hover{
   text-decoration: underline;
+  color:#46CBB1;
 }
 
 .stretched-link:hover{
@@ -852,7 +854,7 @@ transform: rotate(0) scale(1);
 
 .lien-contagct-blog .btn-success{
   background-color: #46CBB1;
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
   padding: 10px;
   font-size: 18px;
 }
@@ -862,7 +864,9 @@ transform: rotate(0) scale(1);
   background-color: #035242;
 }
 
-
+.img-padding{
+  padding: 13px;
+}
 
 /* Article */
 
@@ -977,6 +981,12 @@ transform: rotate(0) scale(1);
 .contact-e-mail:hover{
   color: #000000;
 }
+
+
+/* Mise en place du parallax */
+
+
+
 
 
 /* Footer  */

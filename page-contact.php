@@ -45,6 +45,8 @@ Page contact Paradisiak
 	    </a>
   </nav>
 
+  
+
  <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center background-header-contact">
        <div class="col container"> 
           <h1 class="site-carriere titre-header-page"> Un besoin de site carrière ? </h1>
@@ -56,7 +58,6 @@ Page contact Paradisiak
   </div>
 </header>
 <h2 class="devis-titre-contact">Demandez un devis pour votre site carrière !</h2>
-
 <div class="container block-contact border rounded-2">
   <div class="row">
       <div class="col-sm-8">
@@ -87,7 +88,7 @@ Page contact Paradisiak
         </div>
 
         <div class="col footer-picto">
-              <a href="https://www.linkedin.com/company/intuition-software/" target="_blank">
+              <a href="#" target="_blank">
               <img src="<?php echo (get_template_directory_uri(). '/assets/icone/linkedin.png');?>" class="img-fluid" alt="" width="30" >
               </a>
               <a href="#">

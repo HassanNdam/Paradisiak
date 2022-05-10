@@ -25,7 +25,7 @@
 <div class="container">
             <div class="row featurette">
               <div class="col-md-6">
-                <p class="lead nous-sommes-texte "> Nous sommes spécialisés dans la création de sites internet dans l’univers des Ressources Humaines. <br> Que vous soyez un cabinet de 
+                <p class="lead nous-sommes-texte"> Nous sommes spécialisés dans la création de sites internet dans l’univers des Ressources Humaines. <br> Que vous soyez un cabinet de 
                 recrutement ou une entreprise qui souhaite dynamiser sa communication RH ou sa politique de recrutement nous avons la solution !</p>
               </div>
               <div class="col-md-6 img-droite-bloc1">
@@ -194,4 +194,3 @@
         </div>
 </div>
 <img src="<?php echo (get_template_directory_uri(). '/assets/img/footer_image.png');?>" class="img-fluid" alt="..." width="100%" height="10%">
-

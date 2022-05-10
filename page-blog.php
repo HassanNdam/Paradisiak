@@ -49,8 +49,8 @@
 </div>
 
 <main class="container">
-  <div class="row g-5">
-    <div class="col-md-8">
+  <div class="row g-5 ">
+    <div class="col-md-9">
             
       <?php
       $args = array(
@@ -68,15 +68,15 @@
 
         <div class="row mb-2">
             <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-              <div class="col p-4 d-flex flex-column position-static">
+              <div class="col p-4 d-flex flex-column position-static ">
                 <strong class="d-inline-block mb-2 point-2"><?php the_category();?></strong>
                 <h3 class="mb-2"><?php the_title(); ?></h3>
                 <div class="mb-3 text-muted">Publié le <?php the_date(); ?> par <strong><?php the_author();?></strong></div>
                 <p class="card-text mb-auto"><?php the_excerpt(); ?></p>
                 <a href="<?php the_permalink();?>" class="stretched-link">Lire la suite</a>
               </div>
-              <div class="col-auto d-none d-lg-block">
-                <img class="rounded mx-auto d-block" src="<?php the_post_thumbnail_url('medium'); ?>" alt="image" width="350" height="100%">
+              <div class="col-auto d-none d-lg-block img-padding box-pourquoi">
+                <img class="rounded mx-auto d-block border" src="<?php the_post_thumbnail_url('medium'); ?>" alt="image" width="400" height="100%">
               </div>
             </div>
           </div>
@@ -84,30 +84,32 @@
 
         <?php endforeach; wp_reset_postdata(); ?>
 
-        </div>
+    </div>
 
-    <div class="col-md-4">
+    <div class="col-md-3">
       <div class="position-sticky" style="top: 2rem;">
-        <div class="p-4 mb-3 bg-light rounded box-pourquoi">
+        <div class="p-4 mb-3 rounded border box-pourquoi">
           <h4 class="idee-site">Catégories</h4>
             <ol class="list-unstyled mb-0 text-center">
             <li><a class="categorie" href="#">Ici</a></li>
             </ol>
           <p class="mb-0"></p>
         </div>
+         <div class="py-4 rounded-3">
             <div class="text-center"><br><br>
                 <a class="lien-contagct-blog" href="<?php echo $page_contact; ?>">
                       <button type="button" class="btn btn-success btn-lg text-white">Demandez un devis </button>
                 </a>
             </div>
-        <div class="p-4 box-pourquoi">
-          <h4 class="idee-site">Archives sur notre blog</h4>
+          </div>
+        <div class="p-4 border box-pourquoi">
+          <h4 class="idee-site">Nos archives</h4>
           <ol class="list-unstyled mb-0 text-center">
             <li><a class="categorie" href="#">Ici</a></li>
           </ol>
-        </div>  
+        </div> 
         </div>
-      </div>
+      </div>    
     </div>
   </div>
 </main>

@@ -32,7 +32,7 @@
 
     <div class="col-md-4">
       <div class="position-sticky" style="top: 2rem;">
-        <div class="p-4 mb-3 bg-light rounded box-pourquoi">
+        <div class="p-4 mb-3 bg-light border rounded box-pourquoi">
           <h4 class="idee-site">Catégories</h4>
             <ol class="list-unstyled mb-0 text-center">
             <li><a class="categorie" href="#">Ici </a></li> 
@@ -46,8 +46,8 @@
                       <button type="button" class="btn btn-success btn-lg text-white">Demandez un devis </button>
                 </a>
             </div>
-        <div class="p-4 box-pourquoi">
-          <h4 class="idee-site">Archives sur notre blog</h4>
+        <div class="p-4 box-pourquoi border">
+          <h4 class="idee-site">Nos archives</h4>
           <ol class="list-unstyled mb-0 text-center">
             <li><a class="categorie" href="#">Ici</a></li>
           </ol>
