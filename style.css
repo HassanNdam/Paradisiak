@@ -123,6 +123,7 @@ p{
   }
  
 
+
 .site-carriere{
     font-size: 3vw;
     text-align: justify;
@@ -131,7 +132,7 @@ p{
 
   .header-text{
     opacity: 1;
-    margin-top: 78px;
+    margin-top: 50px;
     text-align: justify;
   }
 
@@ -796,7 +797,7 @@ transform: rotate(0) scale(1);
 /* Page Blog */
 
 .titre-blog{
-  font-size:  57px;
+  font-size:  5vw;
   text-transform: uppercase;
   text-align: center;
   font-weight: 300;
@@ -825,13 +826,12 @@ transform: rotate(0) scale(1);
 }
 
 .stretched-link,  .categorie{
-  font-size: 25px;
+  font-size: 18px;
   text-decoration: none;
-  color: #000000;
+  color: #46CBB1
 }
 
 .categorie:hover{
-  color: #46CBB1 ;
   text-decoration: underline;
 }
 
@@ -857,6 +857,47 @@ transform: rotate(0) scale(1);
 .lien-contagct-blog .btn-success:hover{
   border-color: transparent;
   background-color: #035242;
+}
+
+
+
+/* Article */
+
+.single-article{
+  margin-top: 60px;
+
+}
+
+.breadcrumb{
+  font-size: 1.5vw;
+}
+
+.breadcrumb-item a{
+  text-decoration: none;
+}
+
+.breadcrumb-item a:hover{
+  text-decoration: underline;
+  color: #010000;
+}
+
+
+.titre-article{
+  margin-top: 30px;
+  margin-bottom: 50px;
+  font-size: 3vw;
+  font-weight: 600;
+  line-height: 1.5em;
+}
+
+.blog-post-meta{
+  color: #727272;
+  margin-bottom: 1.25rem
+}
+
+.espace-article{
+  margin-top: 30px;
+  margin-bottom: 60px;
 }
 
 /* Page Contact */
