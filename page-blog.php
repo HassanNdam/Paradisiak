@@ -76,7 +76,7 @@
                 <a href="<?php the_permalink();?>" class="stretched-link">Lire la suite</a>
               </div>
               <div class="col-auto d-none d-lg-block img-padding box-pourquoi">
-                <img class="rounded mx-auto d-block border img-align-center" src="<?php the_post_thumbnail_url('medium'); ?>" alt="image" width="400" height="330">
+                <img class="rounded mx-auto d-block border" src="<?php the_post_thumbnail_url('medium'); ?>" alt="image" width="400" height="100%">
               </div>
             </div>
           </div>
@@ -88,13 +88,13 @@
 
     <div class="col-md-3">
       <div class="position-sticky" style="top: 2rem;">
-        <!-- <div class="p-4 mb-3 rounded border box-pourquoi">
+        <div class="p-4 mb-3 rounded border box-pourquoi">
           <h4 class="idee-site">Catégories</h4>
             <ol class="list-unstyled mb-0 text-center">
             <li><a class="categorie" href="#">Ici</a></li>
             </ol>
           <p class="mb-0"></p>
-        </div> -->
+        </div>
          <div class="py-4 rounded-3">
             <div class="text-center"><br><br>
                 <a class="lien-contagct-blog" href="<?php echo $page_contact; ?>">
@@ -102,12 +102,12 @@
                 </a>
             </div>
           </div>
-        <!-- <div class="p-4 border box-pourquoi">
+        <div class="p-4 border box-pourquoi">
           <h4 class="idee-site">Nos archives</h4>
           <ol class="list-unstyled mb-0 text-center">
             <li><a class="categorie" href="#">Ici</a></li>
           </ol>
-        </div>  -->
+        </div> 
         </div>
       </div>    
     </div>
