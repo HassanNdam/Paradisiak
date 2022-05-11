@@ -106,19 +106,19 @@
 <div class="row">
     <div class="owl-carousel owl-theme">
             <div class="item first prev hovereffect">
-                      <img src="<?php echo(get_template_directory_uri() . '/assets/portfolio/dmr_home.png') ?>" class="img-fluid" alt="Compiene">
+                      <img src="<?php echo(get_template_directory_uri() . '/assets/portfolio/dmr_home1.png') ?>" class="img-fluid" alt="Compiene">
                       <div class="overlay">
                           <a class="info" href="https://admr76.candidater.fr/" target="_blank">Voir la page carrière </a>
                       </div>
             </div>
             <div class="item show hovereffect">
-                      <img src="<?php echo(get_template_directory_uri() . '/assets/portfolio/pichet_home.png') ?>" class="img-fluid" alt="Pichet">
+                      <img src="<?php echo(get_template_directory_uri() . '/assets/portfolio/pichet_home1.png') ?>" class="img-fluid" alt="Pichet">
                       <div class="overlay">
                           <a class="info" href="https://emploi.pichet.fr/" target="_blank">Voir la page carrière</a>
                       </div>
             </div>
             <div class="item next hovereffect">
-                      <img src="<?php echo(get_template_directory_uri() . '/assets/portfolio/intersport_home.png') ?>" class="img-fluid" alt="Intersport" >
+                      <img src="<?php echo(get_template_directory_uri() . '/assets/portfolio/intersport_home1.png') ?>" class="img-fluid" alt="Intersport" >
                       <div class="overlay">
                           <a class="info" href="https://recrutement.intersport.fr/" target="_blank">
                             Voir la page carrière
@@ -126,7 +126,7 @@
                       </div>
             </div>
             <div class="item last hovereffect">
-                      <img src="<?php echo(get_template_directory_uri() . '/assets/portfolio/compiegne_home.png') ?>" class="img-fluid" alt="Compiegne">
+                      <img src="<?php echo(get_template_directory_uri() . '/assets/portfolio/compiegne_home1.png') ?>" class="img-fluid" alt="Compiegne">
                       <div class="overlay">
                                 <a class="info" href="https://recrutement.agglo-compiegne.fr/" target="_blank">Voir la page carrière</a>
                       </div>
