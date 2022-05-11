@@ -11,8 +11,8 @@
     <h1 class="titre-article "><?php echo the_title();?></h1>
 </div>
 
-<div class="container">
-    <img class="rounded mx-auto d-block" src="<?php the_post_thumbnail_url('medium'); ?>" alt="image" width="600" height="300">
+<div class="container text-center">
+    <img class="rounded-3 border img-fluid single-thumbnail col-md-6" src="<?php the_post_thumbnail_url('thumbnails'); ?>" alt="image" max-width="" max-height="">
 </div>
 
 <div class="row g-5 espace-article">
