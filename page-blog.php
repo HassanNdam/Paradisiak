@@ -71,7 +71,7 @@
               <div class="col p-4 d-flex flex-column position-static ">
                 <strong class="d-inline-block mb-2 point-2"><?php the_category();?></strong>
                 <h3 class="mb-2"><?php the_title(); ?></h3>
-                <div class="mb-3 text-muted">Publié le <?php the_date(); ?> par <strong><?php the_author();?></strong></div>
+                <div class="mb-3 text-muted"><span class="material-icons icone-date_pub">schedule</span>  Publié le <?php the_date(); ?> par <strong><?php the_author();?></strong></div>
                 <p class="card-text mb-auto"><?php the_excerpt(); ?></p>
                 <a href="<?php the_permalink();?>" class="stretched-link">Lire la suite</a>
               </div>

@@ -951,14 +951,26 @@ a.info:hover{
   line-height: 1.5em;
 }
 
+.bloc-desc-article{
+  box-shadow: 0 1px 20px #d3d3d3;
+  padding-top: 30px;
+}
+
 .blog-post-meta{
   color: #727272;
-  margin-bottom: 1.25rem
+  margin-bottom: 1.25rem;
+  margin-top: 15px;
 }
 
 .espace-article{
-  margin-top: 30px;
+  margin-top: 10px;
   margin-bottom: 60px;
+}
+
+
+.icone-date_pub{
+  color:#46CBB1 ;
+  font-size: medium;
 }
 
 /* Page Contact */

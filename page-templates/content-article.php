@@ -1,33 +1,29 @@
 
+<?php
+  $page_blog = get_site_url() . '/blog/';
+?>
+
 <main class="container">
-<div class="text-start single-article">
-    <nav aria-label="breadcrumb">
-    <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="<?php echo get_site_url();?>">Accueil</a></li>
-        <li class="breadcrumb-item"><a href="<?php echo $page_blog; ?>">Notre blog</a></li>
-        <li class="breadcrumb-item active" aria-current="page"><?php echo the_title();?></li>
-    </ol>
-    </nav>
-    <h1 class="titre-article "><?php echo the_title();?></h1>
-</div>
+  <div class="text-start single-article">
+      <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="<?php echo get_site_url();?>">Accueil</a></li>
+          <li class="breadcrumb-item"><a href="<?php echo $page_blog; ?>">Notre blog</a></li>
+          <li class="breadcrumb-item active" aria-current="page"><?php echo the_title();?></li>
+      </ol>
+      </nav>
+      <h1 class="titre-article "><?php echo the_title();?></h1>
+  </div>
 
 <div class="container text-center">
     <img class="rounded-3 border img-fluid single-thumbnail col-md-6" src="<?php the_post_thumbnail_url('thumbnails'); ?>" alt="image" max-width="" max-height="">
 </div>
-
+<p class="blog-post-meta"><span class="material-icons icone-date_pub">schedule</span>  Publié le <?php the_date();?> par <strong> <?php the_author();?></strong></p><hr>
 <div class="row g-5 espace-article">
-    <div class="col-md-8">
-    <article class="blog-post">
-    <p class="blog-post-meta"> Publié le <?php the_date();?> par <strong> <?php the_author();?></strong></p>
-        <hr>
-        
-      </article>
-
-            <?php
-
-            the_content();
-
-            ?>
+    <div class="col-md-8 bloc-desc-article">
+        <?php
+         the_content();
+        ?>
     </div>
 
     <div class="col-md-4">
