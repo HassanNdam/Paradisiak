@@ -26,7 +26,7 @@
 <header class="site-header"> 
   <nav class="navbar navbar-default navbar-expand-md d-flex container flex-column flex-md-row justify-content-between">
       <a class="navbar-brand" href="<?php echo get_site_url();?>" aria-label="Product" >
-            <img src="<?php echo (get_template_directory_uri(). '/assets/logo/logo-large.png');?>"  alt="" height="85" width="240"> 
+            <img src="<?php echo (get_template_directory_uri(). '/assets/logo/logo-large1.png');?>"  alt="" height="85" width="240"> 
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="true" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
