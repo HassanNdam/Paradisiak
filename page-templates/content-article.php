@@ -32,26 +32,26 @@
 
     <div class="col-md-4">
       <div class="position-sticky" style="top: 2rem;">
-        <div class="p-4 mb-3 bg-light border rounded box-pourquoi">
+        <!-- <div class="p-4 mb-3 bg-light border rounded box-pourquoi">
           <h4 class="idee-site">Catégories</h4>
             <ol class="list-unstyled mb-0 text-center">
             <li><a class="categorie" href="#">Ici </a></li> 
-                     <!-- <?php the_category(); ?>
-                         <?php the_tags();?> -->
+                     <?php the_category(); ?>
+                         <?php the_tags();?>
             </ol>
           <p class="mb-0"></p>
-        </div>
+        </div> -->
             <div class="text-center"><br><br>
                 <a class="lien-contagct-blog" href="<?php echo $page_contact; ?>">
                       <button type="button" class="btn btn-success btn-lg text-white">Demandez un devis </button>
                 </a>
             </div>
-        <div class="p-4 box-pourquoi border">
+        <!-- <div class="p-4 box-pourquoi border">
           <h4 class="idee-site">Nos archives</h4>
           <ol class="list-unstyled mb-0 text-center">
             <li><a class="categorie" href="#">Ici</a></li>
           </ol>
-        </div>  
+        </div>   -->
         </div>
       </div>
     </div>
