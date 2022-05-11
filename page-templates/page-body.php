@@ -10,7 +10,7 @@
           <br>
           <p class="lead fw-normal">Attirez les meilleurs talents et faites exploser <br>votre référencement !</p>
             <a href="<?php echo $page_contact; ?>"><button type="button" class="btn btn-success text-white espace-btn-header" >Demandez un devis</button>
-          </a>
+            </a>
         </div>
 </div>
 
@@ -37,7 +37,7 @@
 
 <div class="container etape-3">
     <div class="row align-items-md-stretch espace-demarquez">
-      <div class="col-md-6">
+      <div class="col-md-6 espace-mobile">
         <div class="h-100 p-5 text-dark bg-light border rounded-3">
              <div class="row">
                   <div class="col-6 col-sm-3 slideanim"><h1 class="etape">1<span class="point-1">.</span></h1></div>
@@ -63,7 +63,7 @@
       </div>
     </div>
     <div class="row align-items-md-stretch">
-       <div class="col-md-6">
+       <div class="col-md-6 espace-mobile">
         <div class="h-100 p-5 bg-dark border rounded-3">
             <div class="row">
                   <div class="col-2 col-sm-3 slideanim"><h1 class="etape">3<span class="point-2">.</span></h1></div>

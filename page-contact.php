@@ -51,7 +51,7 @@ Page contact Paradisiak
        <div class="col container"> 
           <h1 class="site-carriere titre-header-page"> Un besoin de site carrière ? </h1>
           <div class="">
-          <p class="lead fw-normal">Contactez <strong> Paradisiak</strong> nous vous accompagnons <br>de A à Z</p>
+          <p class="contactez">Contactez <strong> Paradisiak</strong> nous vous accompagnons <br>de A à Z</p>
           </div>
         </div>
        </div>

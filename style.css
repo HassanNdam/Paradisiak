@@ -3,7 +3,7 @@
 /* 
 Theme Name: By Paradisiak 
 Version: 1.0 beta
-Description: Paradisiak, Votre Site Carrière
+Description: Paradisiak, Votre Agence WEB RH
 Author: Paradisiak
 Bouton header couleur verte:  #46CBB1  Option 2 : #FF9200
 Couleur logo Intuition : #f2761c
@@ -87,6 +87,12 @@ p{
     text-transform: uppercase;
   }
 
+  @media screen and (max-width:767px) {
+    .site-header a {
+      margin: 10px;
+    }
+  }
+
 
 .site-header a .btn-success{
   margin-top: 5px;
@@ -125,10 +131,19 @@ p{
 
 
 .site-carriere{
-    font-size: 2.3vw;
+    font-size: 45px;
     text-align: justify;
     animation-duration: 2s;
   }
+
+  @media screen and (max-width:767px) {
+    .site-carriere{
+      font-size: 35px;
+      text-align: center;
+    }
+  }
+
+
 
   .header-text{
     opacity: 1;
@@ -136,9 +151,18 @@ p{
     text-align: justify;
   }
 
+  @media screen and (max-width:767px) {
+    .header-text{
+      text-align: center;
+    }
+  }
+  
   .espace-btn-header{
     margin-top: 13px;
   }
+
+
+
 
   /* Media queries header */
 
@@ -168,6 +192,14 @@ p{
     text-align:  justify;
     font-size: 1.4vw;
   }
+
+  @media screen and (max-width:767px) {
+    .lead{
+      font-size: 15px;
+      text-align: center;
+    }
+  }
+
 
   .nous-sommes-texte{
     margin-top: 80px;
@@ -268,6 +300,26 @@ p{
   .paradisiak-text2{
     font-weight: bold; 
   }
+
+
+
+  @media screen and (max-width:817px) {
+    .creer-site-titre {
+      font-size: 8vw;
+    }
+    .creer-texte-ligne{
+      font-size: 6vw;
+    }
+    .nous-sommes-texte{
+      font-size: 20px;
+      text-align: justify;
+    }
+    .nous-sommes-texte{
+      margin-top: 0px;
+      text-align: justify;
+    }
+  }
+
 
   .etape{
     font-style: normal;
@@ -398,13 +450,12 @@ p{
   }
 
 
-/* Media query bloc 1 */
-
-/* .img-droite-bloc1{
-  background-color: red;
-} */
-
-
+  @media screen and (max-width:767px) {
+    .etape-3 .espace-mobile{
+      margin-bottom: 30px;
+    }
+    
+  }
 
 
   /*Animation apparition texte*/
@@ -700,6 +751,10 @@ a.info:hover{
   text-align: justify;
 }
 
+.contactez{
+  margin-top: 30px;
+}
+
 .text-titre-header .p-md-5{
   padding:1rem !important;
 }
@@ -800,10 +855,10 @@ a.info:hover{
 /* Page Blog */
 
 .titre-blog{
-  font-size:  4vw;
-  text-transform: uppercase;
+  font-size:  50px;
+  text-transform: none;
   text-align: center;
-  font-weight: 300;
+  font-weight: 400;
   margin-top: 50px;
   margin-bottom: 90px;
 }
@@ -1039,6 +1094,13 @@ a .material-icons{
     margin-left: -349px;
  }
 }
+
+@media  screen and (max-width:488px) {
+  .coypwrights{
+     text-align: center;
+  }
+ }
+
 
 
 
