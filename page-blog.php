@@ -68,7 +68,7 @@
 
         <div class="row mb-2">
             <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-              <div class="col p-4 d-flex flex-column position-static ">
+              <div class="col p-4  flex-column position-static ">
                 <strong class="d-inline-block mb-2 point-2"><?php the_category();?></strong>
                 <h3 class="mb-2"><?php the_title(); ?></h3>
                 <div class="mb-3 text-muted"><span class="material-icons icone-date_pub">schedule</span>  Publié le <?php the_date(); ?> par <strong><?php the_author();?></strong></div>
