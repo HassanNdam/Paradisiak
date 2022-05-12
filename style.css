@@ -935,6 +935,13 @@ a.info:hover{
   font-size: 1.5vw;
 }
 
+@media screen and (max-width:618px) {
+  .breadcrumb{
+    font-size: 13px;
+  }
+  
+}
+
 .breadcrumb-item a{
   text-decoration: none;
 }
