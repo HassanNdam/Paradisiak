@@ -170,9 +170,6 @@ p{
     .site-header a {
       font-size: 10px;
     }
-    /* .display-btn-top{
-      display: none;
-    } */
   }
 
   @media screen  and (min-width:768px) and (max-width:992px){
@@ -772,6 +769,20 @@ a.info:hover{
   padding:1rem !important;
 }
 
+@media screen and (max-width:768px) {
+  .titre-header-page, .contactez{
+    font-size: 17px;
+    text-align: center;
+  }
+  .titre-header-page{
+    margin-top: 15px;
+    font-size: 31px;
+  }
+  .contactez{
+    font-size: 15px;
+  }
+}
+
 .page-site-exemples{
   background-color: #ffffff;
   margin: 50px 0px 0px 0px;
@@ -1053,7 +1064,7 @@ a.info:hover{
   text-align: center;
   color: #000000;
   font-size:30px;
-  padding-top:20px;
+  margin-top:80px;
 }
 
 .form-check-input{
