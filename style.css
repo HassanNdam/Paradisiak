@@ -217,7 +217,8 @@ p{
     background-size: cover;
     color: white;
     height: 450px;
-    max-width:100%
+    max-width:100%;
+    /* border-radius: 0px 0px 50px 50px; Arrondir les bords*/
   }
 
 
@@ -746,12 +747,13 @@ a.info:hover{
 }
 
 .titre-header-page{
-  font-size: 32px;
+  font-size: 30px;
   text-align: justify;
 }
 
 .contactez{
   margin-top: 30px;
+  font-size: 25px;
 }
 
 .text-titre-header .p-md-5{
@@ -982,7 +984,7 @@ a.info:hover{
   background-size: cover;
   color: white;
   height: 205px;
-  max-width: 100% ;
+  max-width: 100%;
 }
 
 .block-contact{
@@ -990,7 +992,6 @@ a.info:hover{
   margin: 3rem auto;
   color: black;
   padding: 40px;
-
 }
 
 .envoi-mail{
