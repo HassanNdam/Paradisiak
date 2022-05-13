@@ -12,7 +12,7 @@
           <li class="breadcrumb-item active" aria-current="page"><?php echo the_title();?></li>
       </ol>
       </nav>
-      <h1 class="titre-article "><?php echo the_title();?></h1>
+      <h1 class="titre-article"><?php echo the_title();?></h1>
   </div>
 
 <div class="container text-center">

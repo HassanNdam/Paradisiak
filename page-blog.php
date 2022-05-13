@@ -41,7 +41,7 @@
           <button class="btn btn-success text-white"><i class="fa fa-phone"></i> 01 45 26 08 73</button>
         </a>
     </nav>
-  <img src="<?php echo (get_template_directory_uri(). '/assets/img/footer_image.png');?>" class="img-fluid" alt="..." width="100%" height="15%">
+  <img src="<?php echo (get_template_directory_uri(). '/assets/img/footer_image.png');?>" class="img-fluid progressive" alt="..." width="100%" height="15%">
 </header>
 
 <div class="bloc-titre-blog text-center">
@@ -84,7 +84,7 @@
 
         <?php endforeach; wp_reset_postdata(); ?>
 
-    </div>
+     </div>
 
     <div class="col-md-3">
       <div class="position-sticky" style="top: 2rem;">
@@ -120,6 +120,7 @@
 ?>
 </body>
 </html>
+
 
 
 
