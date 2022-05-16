@@ -18,7 +18,7 @@
 <div class="container text-center">
     <img class="rounded-3 border img-fluid single-thumbnail col-md-6" src="<?php the_post_thumbnail_url('thumbnails'); ?>" alt="image" max-width="" max-height="">
 </div>
-<p class="blog-post-meta"><span class="material-icons icone-date_pub">schedule</span>  Publié le <?php the_date();?> par <strong> <?php the_author();?></strong></p><hr>
+<p class="blog-post-meta"><span class="material-icons icone-date_pub">schedule</span>  Publié le <?php the_date();?></p><hr>
 <div class="row g-5 espace-article">
     <div class="col-md-8 bloc-desc-article">
         <?php
