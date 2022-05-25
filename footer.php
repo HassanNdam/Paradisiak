@@ -25,16 +25,16 @@
       <h5>Nous-suivre : </h5>
       <!-- <ul class="list-unstyled text-small"> -->
       <div class="col footer-picto">
-            <a href="#">
-            <img src="<?php echo (get_template_directory_uri(). '/assets/icone/linkedin.png');?>" class="img-fluid" alt="" width="30" >
-            </a>
-            <a href="#">
-            <img src="<?php echo (get_template_directory_uri(). '/assets/icone/tiktok-logo.svg');?>" class="img-fluid" alt="" width="30" >
-            </a>
-            <a href="#">
-            <img src="<?php echo (get_template_directory_uri(). '/assets/icone/insta.webp');?>" class="img-fluid" alt="" width="30" >
-            </a>
-	   </div>
+              <a href="https://www.linkedin.com/company/agenceparadisiak/about/?viewAsMember=true" target="_blank" >
+              <img src="<?php echo (get_template_directory_uri(). '/assets/icone/linkedin.png');?>" class="img-fluid" alt="" width="30" >
+              </a>
+              <a href="https://www.tiktok.com/@agenceparadisiak?lang=fr" target="_blank">
+              <img src="<?php echo (get_template_directory_uri(). '/assets/icone/tiktok-logo.svg');?>" class="img-fluid" alt="" width="30" >
+              </a>
+              <a href="https://www.instagram.com/agenceparadisiak/" target="_blank">
+              <img src="<?php echo (get_template_directory_uri(). '/assets/icone/insta.webp');?>" class="img-fluid" alt="" width="30" >
+              </a>
+      </div>
        <!-- </ul> -->
      </div>
     <div class="d-flex justify-content-center py-4 my-4 border-top">
