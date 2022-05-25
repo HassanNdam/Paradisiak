@@ -299,14 +299,14 @@ p{
     margin-top: 20px;
     color: #000000;
     letter-spacing: 1rem;
-    font-size: 5vw;
+    font-size: 80px;
     --reveal-delay: 0.1s;
     text-transform: uppercase;
     text-align: center;
   }
 
   .creer-texte-ligne{
-    font-size:  4vw;
+    font-size:  60px;
     text-transform: uppercase;
     text-align: center;
     font-weight: 300;
@@ -317,24 +317,30 @@ p{
   }
 
 
-
   @media screen and (max-width:817px) {
     .creer-site-titre {
-      font-size: 8vw;
+      font-size: 30px;
     }
     .creer-texte-ligne{
-      font-size: 6vw;
-    }
-    .nous-sommes-texte{
-      font-size: 20px;
-      text-align: justify;
-    }
-    .nous-sommes-texte{
-      margin-top: 0px;
-      text-align: justify;
+      font-size: 25px;
     }
   }
 
+  @media screen and (max-width:386px) {
+    .creer-site-titre {
+      font-size: 23px;
+    }
+    .creer-texte-ligne{
+      font-size: 17px;
+    }
+  }
+
+  @media screen and (max-width:768px) {
+    .nous-sommes-texte{
+      margin-top: 0px;
+    }
+    
+  }
 
   .etape{
     font-style: normal;
