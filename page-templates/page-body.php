@@ -136,53 +136,85 @@
 
 <h2 class="texte-confiance">Ils nous font confiance !</h2>
 
-            <div class="container bloc-nos-clients text-center">
-                    <div class="row row-cols-8">
-                        <div class="col border rounded-2 partenaire">
-                            <a href="https://recrutement.intersport.fr/" target="_blank" title="Visiter le site carrière">
-                             <img src="<?php echo(get_template_directory_uri() . '/assets/logo/logo_is.svg') ?>" class="img-fluid" alt="">
-                            </a>
-                        </div>
-                        <div class="col border rounded-2 partenaire">
-                            <a href="https://emploi.pichet.fr/" target="_blank" title="Visiter le site carrière">
-                                <img src="<?php echo(get_template_directory_uri() . '/assets/logo/logo-pichet.svg') ?>" class="img-fluid" alt="">
-                            </a>
-                        </div>
-                         <div class="col border rounded-2 partenaire">
-                            <a href="https://soredes.candidater.fr/" target="_blank" title="Visiter le site carrière">
-                             <img src="<?php echo(get_template_directory_uri() . '/assets/logo/soredes.png') ?>" class="img-fluid" alt="">
-                            </a>
-                        </div>
-                        <div class="col border rounded-2 partenaire">
-                            <a href="https://admr76.candidater.fr/" target="_blank" title="Visiter le site carrière">
-                                    <img src="<?php echo(get_template_directory_uri() . '/assets/logo/admr.jpg') ?>" class="img-fluid" alt="">
-                            </a>
-                         </div>
-                    </div>
-                    <div class="row block-confiance">
-                         <div class="col border rounded-2 partenaire">
-                            <a href="https://recrutement.agglo-compiegne.fr/" target="_blank" title="Visiter le site carrière">
-                                    <img src="<?php echo(get_template_directory_uri() . '/assets/logo/mairi.png') ?>" class="img-fluid" alt="">
-                            </a>
-                         </div>
-                         <div class="col border rounded-2 partenaire">
-                            <a href="https://1001repas.candidater.fr/" target="_blank" title="Visiter le site carrière">
-                                    <img src="<?php echo(get_template_directory_uri() . '/assets/logo/1001etrepas.png') ?>" class="img-fluid" alt="">
-                            </a>
-                         </div>
-                         <div class="col border rounded-2 partenaire">
-                            <a href="https://chelles.candidater.fr/" target="_blank" title="Visiter le site carrière">
-                                    <img src="<?php echo(get_template_directory_uri() . '/assets/logo/logo-chelles.png') ?>" class="img-fluid" alt="">
-                            </a>
-                         </div>
-                         <div class="col border rounded-2 partenaire">
-                            <a href="http://martinetinvest.candidater.fr/" target="_blank" title="Visiter le site carrière">
-                                <img src="<?php echo(get_template_directory_uri() . '/assets/logo/logo-martinet.png') ?>" class="img-fluid" alt="">
-                            </a>
-                         </div>
-                    </div>
+<div class="container bloc-nos-clients mb-5">
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="card partenaire">
+            <div class="card-body">
+              <a href="https://recrutement.intersport.fr/" target="_blank" title="Visiter le site carrière">
+                                  <img src="<?php echo(get_template_directory_uri() . '/assets/logo/logo_is.svg') ?>" class="img-fluid" alt="">
+                </a>
             </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card partenaire">
+            <div class="card-body">
+              <a href="https://emploi.pichet.fr/" target="_blank" title="Visiter le site carrière">
+                  <img src="<?php echo(get_template_directory_uri() . '/assets/logo/logo-pichet.svg') ?>" class="img-fluid" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card partenaire">
+            <div class="card-body">
+              <a href="https://soredes.candidater.fr/" target="_blank" title="Visiter le site carrière">
+                <img src="<?php echo(get_template_directory_uri() . '/assets/logo/soredes.png') ?>" class="img-fluid" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card partenaire">
+            <div class="card-body">
+              <a href="https://admr76.candidater.fr/" target="_blank" title="Visiter le site carrière">
+                  <img src="<?php echo(get_template_directory_uri() . '/assets/logo/admr.jpg') ?>" class="img-fluid" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
 
+      <div class="row mt-5">
+        <div class="col-sm-3">
+          <div class="card partenaire">
+            <div class="card-body">
+              <a href="https://recrutement.agglo-compiegne.fr/" target="_blank" title="Visiter le site carrière">
+                  <img src="<?php echo(get_template_directory_uri() . '/assets/logo/mairi.png') ?>" class="img-fluid" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card partenaire">
+            <div class="card-body">
+              <a href="https://1001repas.candidater.fr/" target="_blank" title="Visiter le site carrière">
+                  <img src="<?php echo(get_template_directory_uri() . '/assets/logo/1001etrepas.png') ?>" class="img-fluid" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card partenaire">
+            <div class="card-body">
+              <a href="https://chelles.candidater.fr/" target="_blank" title="Visiter le site carrière">
+                  <img src="<?php echo(get_template_directory_uri() . '/assets/logo/logo-chelles.png') ?>" class="img-fluid" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card partenaire">
+            <div class="card-body">
+              <a href="http://martinetinvest.candidater.fr/" target="_blank" title="Visiter le site carrière">
+                  <img src="<?php echo(get_template_directory_uri() . '/assets/logo/logo-martinet.png') ?>" class="img-fluid" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
   <!--Dernier block accueil-->
 
 <div class="container-fluid text-center">
