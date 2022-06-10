@@ -1,6 +1,14 @@
 <!doctype html>
 <html lang="fr">
   <head>
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-6Q517JNPYH"></script>
+      <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-6Q517JNPYH');
+      </script>
     <meta name="google-site-verification" content="h853uzLKUoZUqwcp0rxEHpDu75O5XbAuuvvOqtb3mzo" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,8 +27,9 @@
   $page_blog = get_site_url() . '/blog/';
 
   ?>
-  </head>
-  <body>
+
+</head>
+<body>
 
 
 <header class="site-header"> 
