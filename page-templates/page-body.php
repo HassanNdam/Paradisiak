@@ -134,9 +134,9 @@
       </div>
 </div>
 
-<h2 class="texte-confiance">Ils nous font confiance !</h2>
+<h2 class="texte-confiance">Ils nous font confiance <span class="point-1">!</span></h2>  
 
-<div class="container bloc-nos-clients mb-5">
+<div class="container bloc-nos-clients">
       <div class="row">
         <div class="col-sm-3">
           <div class="card partenaire">
@@ -215,10 +215,12 @@
         </div>
       </div>
 </div>
-  <!--Dernier block accueil-->
+
+  <!--Blog confiez-nous votre page carrière-->
+
 
 <div class="container-fluid text-center">
-        <div class="row" >
+        <div class="row">
                    <h2 class="featurette-heading pensez slideanim"> <span class="point-1">C</span>onfiez votre site carrière à nos experts <span class="point-1">RH</span> !</h2> 
                    <a class="devis-pensez" href="<?php echo $page_contact; ?>">
                       <button type="button" class="btn btn-success btn-lg text-white">Demandez un devis </button>

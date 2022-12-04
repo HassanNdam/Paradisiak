@@ -28,15 +28,23 @@
 
     <div class="col-md-4">
       <div class="position-sticky" style="top: 2rem;">
-        <!-- <div class="p-4 mb-3 bg-light border rounded box-pourquoi">
-          <h4 class="idee-site">Catégories</h4>
+        <div class="p-4 mb-3 border rounded box-pourquoi">
             <ol class="list-unstyled mb-0 text-center">
-            <li><a class="categorie" href="#">Ici </a></li> 
-                     <?php the_category(); ?>
-                         <?php the_tags();?>
+
+                  <?php 
+                  
+                  get_search_form();
+
+                  wp_list_categories(
+                      array(
+                            'orderby'    => 'name',
+                            'show_count' => true
+                        ) ); 
+                  ?>
+
             </ol>
           <p class="mb-0"></p>
-        </div> -->
+        </div>
             <div class="text-center"><br><br>
                 <a class="lien-contagct-blog" href="<?php echo $page_contact; ?>">
                       <button type="button" class="btn btn-success btn-lg text-white">Demandez un devis </button>

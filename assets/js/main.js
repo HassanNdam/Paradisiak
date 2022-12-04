@@ -73,5 +73,15 @@ $(window).scroll(function() {
     });
     });
 
+    // loader
 
-    
+$('body').append('<div style="" id="loadingDiv"><div class="loader">Loading...</div></div>');
+$(window).on('load', function(){
+    setTimeout(removeLoader, 1500); //Attente quelques secondes
+});
+function removeLoader(){
+    $( "#loadingDiv" ).fadeOut(500, function() {
+        // Fade
+        $( "#loadingDiv" ).remove(); 
+    });  
+}

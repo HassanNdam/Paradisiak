@@ -57,10 +57,10 @@
 </div>
 
 <main class="container">
-  <div class="row g-5 ">
-    <div class="col-md-9">
-            
-      <?php
+<div class="row g-5 ">
+  <div class="col-md-9">
+    
+    <?php
       $args = array(
           'posts_per_page'   => -1,
           'offset'           => 0,
@@ -97,11 +97,12 @@
     <div class="col-md-3">
       <div class="position-sticky" style="top: 2rem;">
         <div class="p-4 mb-3 rounded border box-pourquoi">
-          <h4 class="idee-site">Catégories</h4>
-            <ol class="list-unstyled mb-0 text-center">
-            <li><a class="categorie" href="#">Ici</a></li>
-            </ol>
-          <p class="mb-0"></p>
+              <ol class="list-unstyled mb-0 text-center">
+                  <?php wp_list_categories( array(
+                  'orderby'    => 'name',
+                  'show_count' => true,
+                  ) ); ?> 
+              </ol>
         </div>
          <div class="py-4 rounded-3">
             <div class="text-center"><br><br>
@@ -109,20 +110,19 @@
                       <button type="button" class="btn btn-success btn-lg text-white">Demandez un devis </button>
                 </a>
             </div>
-          </div>
-        <div class="p-4 border box-pourquoi">
+        </div>
+        <!-- <div class="p-4 border box-pourquoi">
           <h4 class="idee-site">Nos archives</h4>
           <ol class="list-unstyled mb-0 text-center">
             <li><a class="categorie" href="#">Ici</a></li>
           </ol>
-        </div> 
+        </div>  -->
         </div>
       </div>    
     </div>
   </div>
 </main>
-<br><br><br>
-  <img src="<?php echo (get_template_directory_uri(). '/assets/img/footer_image.png');?>" class="img-fluid" alt="..." width="100%" height="10%">
+  <img src="<?php echo (get_template_directory_uri(). '/assets/img/footer_image.png');?>" class="img-fluid espace-img-bas" alt="..." width="100%" height="10%">
 <?php
   get_footer();
 ?>
